@@ -1,0 +1,652 @@
+﻿#container
+{
+    margin:0px auto;
+    width:966px;
+    height:auto;
+    padding:0px;
+}
+.order_info
+{
+    width:710px;
+    float:left;
+    margin:0px;
+    padding:0px;
+    height:auto;
+}
+.order_info h3
+{
+    background: url("/images/index.gif") no-repeat scroll 0 -50px #FFFFFF;
+    border-bottom: 3px solid #A20000;
+    height: 28px;
+    line-height: 31px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom:0px;
+    margin-top:0px
+}
+.dash
+{
+      width: 96%;
+      margin:auto;
+      border-style: none none dashed;
+    border-width: 0 0 1px;
+}
+.order_info h3 span
+{
+    color:#FFFFFF;
+    font-size:14px;
+    display:inline-block;
+    margin-left:60px;
+}
+.info_detail
+{
+    margin-top:10px;
+    height:auto;
+   border: 1px solid #CDCBCC;
+   padding:35px 0px 20px 25px;
+}
+.select_tip
+{
+    float: right;
+    margin-top: 27px;
+    width: 246px; 
+}
+.tip1
+{
+    border: 1px solid #CDCBCC;
+    margin: 0;
+    width: 246px;
+}
+.tipHeader
+{
+        background-color: #EFEFEF;
+    border-bottom: 1px solid #CDCBCC;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.tipHeader span
+{
+      color: #5E5E5E;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tipHeader a
+{
+        display: inline-block;
+    margin-left: 70px;
+    text-decoration: none;
+ }
+ .tip1_detail
+ {
+       background-color: #F2F2F2;
+    margin: 0;
+    padding: 25px 0 10px 15px;
+ }
+ .tip_detail p
+ {
+     padding:0px;
+     margin:26px 0px 28px 30px;
+     color:#5E5E5E;
+     font-size:12px;
+     line-height:300%;
+ }
+ .tip1_detail label {
+    color: #5E5E5E;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    top: -11px;
+}
+ .tip1_detail label span {
+    display: inline-block;
+    margin-bottom: 14px;
+}
+.bold {
+    color: #000000;
+    font-weight: bold;
+}
+.info_box
+{
+    width:966px;
+     margin:0px;
+    height:auto;
+    padding:0px;
+    margin-bottom:70px;
+}
+.fee3
+{   
+    background: url("/images/ico1.gif") no-repeat scroll 0 -150px #FFFFFF;
+    display: inline-block;
+    height: 19px;
+    vertical-align: middle;
+    width: 67px;
+}
+#songji
+{
+    padding:0px;
+    margin-bottom:20px;
+    color:#5E5E5E;
+    line-height:400%;
+    display:none;
+}
+#songji label
+{
+   display:inline-block;
+   width:60px;
+   text-align:right;
+   margin-right:15px;
+}
+#rentCar
+{
+    padding:0px;
+    margin-bottom:20px;
+    color:#5E5E5E;
+    display:none;
+}
+#rentCar label
+{
+    display:inline-block;
+    width:60px;
+    text-align:right;
+      margin-right:15px;
+      margin-bottom:25px;
+}
+#jieji
+{
+   padding:0px;
+   margin-bottom:20px;
+   color:#5E5E5E;
+   display:none;
+}
+#hotLine
+{
+   padding:0px;
+   margin-bottom:20px;
+   color:#5E5E5E;
+   display:none;
+}
+#hotLine label
+{
+     display:inline-block;
+    width:60px;
+    text-align:right;
+      margin-right:15px;
+      margin-bottom:25px;
+}
+.air_type
+{
+    font-size: 12px;
+    margin-top: 14px;
+    padding-left: 70px;
+}
+.air_type label
+{
+    margin-right:20px;
+}
+.airno
+{
+    padding:0px;
+    margin-top:20px;
+}
+.airno label
+{
+    display:inline-block;
+   width:60px;
+   text-align:right;
+   margin-right:15px;
+   margin-bottom:25px;
+}
+#flightDate,#flightNum
+{
+       height: 23px;
+    line-height: 23px;
+    display:inline-block;
+    width: 200px;
+ border:1px solid #ABA8A1;
+}
+.tip
+{
+    background: none repeat scroll 0 0 #FFFFCD;
+    border: 1px solid #FFCB99;
+    padding: 6px 10px;
+    display:inline-block;
+    margin:-6px 0px 25px 75px;
+}
+#select_province,#select_city,#province,#city,#hotProvince,#hotCity
+{
+     display: inline-block;
+    height: 29px;
+    line-height: 29px;
+    width: 84px;
+    margin-right:20px;
+ border:1px solid #ABA8A1;
+}
+.addr
+{
+    display:inline-block;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    width:360px;
+    border:1px solid #ABA8A1;
+}
+.addr a 
+{
+    cursor: pointer;
+    color: #4F4FFF;
+     background: none repeat scroll 0 0 #DEDEDE;
+     text-decoration: none;
+     padding:2px;
+     margin-left:50px;
+}
+.addr input
+{
+    border:0px;
+     width:220px;
+     font-size: 12px;
+    height: 23px;
+    line-height: 25px;
+}
+.error_tip
+{
+        color: #FF0000;
+    margin-left: 7px;
+    display:inline-block;
+}
+#time,#airTime,#startTime,#hotTime
+{
+    height: 23px;
+    line-height: 23px;
+     width: 80px;
+     font-size:12px;
+     border:1px solid #ABA8A1;
+}
+#useHour
+{
+    display:inline-block;
+    height: 23px;
+    line-height: 23px;
+    border:1px solid #ABA8A1;
+    width:200px;
+}
+#select_hour,#select_minute,#airHour,#airMinute,#startHour,#startMinute,#hotHour,#hotMinute
+{
+     width: 80px;
+     height: 25px;
+    line-height: 25px;
+    border:1px solid #ABA8A1;
+}
+.none
+{
+    display:none;
+}
+#select_airport,#select_portName
+{
+    height: 23px;
+    line-height: 25px;
+    border:1px solid #ABA8A1;
+    width:170px;
+    display:inline-block;
+}
+.passengerInfo
+{
+    margin-top:20px;
+}
+#addPerson
+{
+    position:relative;
+    top:3px;
+}
+.passengerInfo .label
+{
+   display:inline-block;
+   width:60px;
+   text-align:right;
+   margin-right:15px;
+   margin-bottom:30px;
+}
+#passengerPhone
+{
+    display:inline-block;
+    height: 23px;
+    line-height: 23px;
+    border:1px solid #ABA8A1;
+}
+.SMS
+{
+    display:inline-block;
+    margin-left:72px;
+    position:relative;
+    top:-15px;
+}
+#alert
+{
+    position:relative;
+    top:3px;
+}
+#passengerNum
+{
+    width: 80px;
+    border:1px solid #ABA8A1;
+}
+.remarks
+{
+   margin-left:73px;
+}
+.info
+{
+    margin-top:12px;
+}
+.remark_label
+{
+    margin-right:16px;
+}
+.info_box p
+{
+   margin-top:20px;
+}
+#others
+{
+       height: 23px;
+    line-height: 23px;
+    margin-left:18px;
+    border:1px solid #ABA8A1;
+    width:200px;
+}
+.t-c
+{
+       text-align: center;
+       width:185px;
+       margin:70px auto 25px auto;
+}
+.t-c input
+{
+       background: url("/images/btn.gif") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 185px;
+    border:0px;
+}
+.gray
+{
+    color:#999999;
+}
+.jieji {
+    background: url("/images/ico.gif") no-repeat scroll 0 -450px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.songji {
+    background: url("/images/ico.gif") no-repeat scroll -70px -450px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.shizu {
+    background: url("/images/ico.gif") no-repeat scroll right -450px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.banrizu {
+    background: url("/images/ico.gif") no-repeat scroll -70px -500px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.rizu {
+    background: url("/images/ico.gif") no-repeat scroll 0 -500px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.hotline {
+    background: url("/images/ico.gif") no-repeat scroll right -500px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.conUseType
+{
+    margin-top:15px;
+    border: 1px solid #CDCBCC;
+    width:964px;
+    height:auto;
+}
+.oc_tit
+{
+  background: url("/images/bg_x.gif") repeat-x scroll 0 -25px #FFFFFF;
+    border-bottom: 1px solid #C8C8C8;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0 25px;
+    margin:0px;
+}
+.l
+{
+     display: inline-block;
+    float: left;
+}
+.f16
+{
+    font-size:16px;
+}
+.r {
+    display: inline-block;
+    float: right;
+}
+.blue, a.blue:hover {
+    color: #4F4FFF;
+    text-decoration: none;
+}
+.cfm_item
+{
+    margin:0px;
+    padding:30px 0px 25px 100px;
+}
+.cfm_item .img
+{
+    float:left;
+    margin-right:90px;
+    text-align:center;
+    margin-top:5px;
+}
+.cfm_item .img span
+{
+    display:inline-block;
+    margin-top:15px;
+}
+#span_img,#hot_img
+{
+    display:inline-block;
+    width:50px;
+    height:50px;
+}
+#typeName,#hotName
+{
+    color: #000000;
+    font-weight: bold;
+    font-size:16px;
+}
+#cityName
+{
+     font-size: 16px;
+     color: #000000;
+     display:inline-block;
+     margin-left:4px;
+}
+#hot_city
+{
+         font-size: 16px;
+     color: #000000;
+     display:inline-block;
+     margin-top:8px;
+}
+#cfm_jiejiNo,#cfm_jiejiPort,#cfm_songji,#cfm_rentCar,#cfm_Hot
+{
+    float:left;
+    line-height:300%;
+    width:70%;
+    font-size:14px;
+    display:none;
+}
+.cfm_item .car
+{
+    padding:2px;
+    border:1px solid #C3C3C3;
+    width:170px;
+    height:130px;
+    float:left;
+}
+.select_info
+{
+    margin:15px 0px 0px 80px;
+    font-size:14px;
+    font-weight:bold;
+    width:540px;
+    height:auto;
+    float:left;
+}
+.select_info ul
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.select_info ul li
+{
+    width:50%;
+    float:left;
+    padding:0px;
+    list-style:0px;
+    margin:0px 0px 23px 0px;
+}
+.boInfo
+{
+    width:90%;
+    margin:50px auto;
+}
+.row
+{
+      font-size: 12px;
+    margin-top: 20px;
+}
+.row2
+{
+     font-size: 12px;
+    margin-top: 30px;
+    padding-left: 60px;
+}
+.feeType
+{
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #C8C8C8;
+    padding: 10px 20px;
+    line-height:250%;
+    margin-top:40px;
+    word-spacing:2px;
+}
+.message
+{
+    margin:15px 0px 0px 10px;
+}
+#lblMessage
+{
+    display:inline-block;
+    position:relative;
+    top:-30px;
+}
+#orderMess
+{
+    width:400px; 
+    height:50px;
+    border:1px solid #ABA8A1;
+    margin-left:10px;
+}
+.invoice
+{
+    margin:20px 0px 0px 63px;
+}
+.invoiceInfo
+{
+    margin:4px 0px 0px 67px;
+    width: 560px;
+    height:auto;
+   padding: 10px 20px;
+      border:1px solid #ABA8A1;
+   
+}
+.invoiceInfo ul
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.invoiceInfo ul li
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    float:left;
+    padding: 5px 0;
+    width: 50%;
+}
+#receipt_title,#address,#content,#postcode
+{
+    width:190px;
+     height: 23px;
+    line-height: 23px;
+      border:1px solid #ABA8A1;
+}
+.pd20
+{
+    padding:20px;
+}
+.bxln-red {
+    background: url("/images/btn.gif") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 185px;
+    font-weight:bold;
+}
+.btn {
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+}
+.red
+{
+    color:#A10000;
+}
+.feeType a
+{
+    text-decoration:none;
+    display:inline-block;
+    margin-left:4px;
+}
+#coupon
+{
+    width:200px;
+     height: 25px;
+    line-height: 25px;
+    border:1px solid  #ABA8A1;
+    padding:0px;
+    display:inline-block;
+    margin-left:15px;
+}

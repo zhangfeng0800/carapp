@@ -1,0 +1,401 @@
+﻿#container
+{
+    width:966px;
+    height:auto;
+    margin:0px auto;
+    position:relative;
+}
+.right_part
+{
+     margin:10px 0px 60px 0px;
+    float:right;
+    width:780px;
+    height:auto;
+}
+.right_top
+{
+     width:100%;
+    height:101px;
+    border:1px solid #FABDBC;
+}
+.right_header
+{
+    margin:0px;
+    height:33px;
+    padding-left:15px;
+    line-height:33px;
+    background-color:#FEE2E1;
+    font-size:14px;
+    color:#5E5E5E;
+    font-family:@微软雅黑;
+}
+.right_select
+{
+    margin:20px 0px 0px 30px;
+    color:#5E5E5E;
+}
+#btnSelect
+{
+    margin-left:20px;
+    width:73px;
+    height:25px;
+    background: url("/images/btnSelect .jpg") no-repeat scroll rgba(0, 0, 0, 0);
+    border: 0 none currentcolor;
+    cursor: pointer;
+}
+#btnAll
+{
+    margin-left:20px;
+    width:73px;
+    height:25px;
+    background: url("/images/btnAll.jpg") no-repeat scroll rgba(0, 0, 0, 0);
+    border: 0 none currentcolor;
+    cursor: pointer;
+}
+.right_bottom
+{
+    margin:30px 0px 0px 0px;
+    width:100%;
+    height:auto;
+}
+.right_bottom h2
+{
+    font-weight:bold;
+}
+.order_detail
+{
+    margin-top:10px;
+}
+.order_detail ul
+{
+    margin:0px;
+    padding:0px 0px 0px 10px;
+    list-style:none;
+     background: url("/images/mem_bg_x.gif") repeat-x scroll 0 -200px #FFFFFF;
+    overflow: hidden;
+}
+.order_detail ul li
+{
+     display: inline-block;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 5px;
+    text-align: center;
+    width: 110px;
+}
+.order_detail ul li a
+{
+    background: url("/images/mem_btn.gif") no-repeat scroll right -150px rgba(0, 0, 0, 0);
+    color: #343434;
+    display: block;
+    text-decoration:none;
+}
+.order_detail span
+{
+    color:#A10000;
+    font-weight:bold;
+}
+.order_table
+{
+    margin-top:10px;
+}
+.tablist
+{
+     border: 1px solid #E7E7E7;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    color:#5E5E5E;
+}
+.tablist th {
+    background: url("/images/bg_x.gif") repeat-x scroll 0 -150px #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+}
+.tablist td {
+    border-top: 1px solid #E6E6E6;
+    height: 30px;
+    line-height: 30px;
+}
+.tablist span
+{
+     color:#5E5E5E;
+}
+td.time {
+    text-align: center;
+}
+span.r2 {
+    line-height: 1.4;
+    vertical-align: middle;
+}
+.blue, a.blue:hover {
+    color: #4F4FFF;
+}
+.gray {
+    color: #999999;
+}
+.btn_bs2, a.btn_bs2 {
+    background: url("/images/mem_btn.gif") no-repeat scroll 0 -310px rgba(0, 0, 0, 0);
+    height: 19px;
+    line-height: 17px;
+    width: 52px;
+}
+a.btn {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.tablist a
+{
+    text-decoration:none;
+}
+.btn_bs2, a.btn_bs2 {
+    background: url("/images/mem_btn.gif") no-repeat scroll 0 -310px rgba(0, 0, 0, 0);
+    height: 19px;
+    line-height: 17px;
+    width: 52px;
+    color:White;
+}
+.select_bottom
+{
+    margin-top:15px;
+       padding-right: 50px;
+    text-align: right;
+}
+.mem_info
+{
+    margin:10px 0px 80px 0px;
+    width:780px;
+    height:auto;
+    border:1px solid #FABDBC;
+    float:right;
+    position:relative;
+}
+.info_header
+{
+    height:32px;
+    background-color:#FDE3E4;
+    line-height:32px;
+    width:100%;
+    background: url("/images/mem_bg_x.gif") repeat-x scroll 0 -150px #FFFFFF;
+    border-bottom:1px solid #FABDBC;
+}
+.info_header span
+{
+    color:#5E5E78;
+    font-size:14px;
+    margin-left:15px;
+    display:inline-block;
+}
+.info_detail
+{
+    margin:45px 0px 0px 77px;
+    padding:0px;
+}
+.info_detail label
+{
+    width:80px;
+    display:inline-block;
+    font-size:14px;
+    font-family:微软雅黑;
+    text-align:right;
+    color:#5E5E78;
+    margin-bottom:18px;
+}
+.info_detail input
+{
+    display:inline-block;
+    margin:0px 0px 0px 20px;
+    height:24px;
+    width:200px;
+    border:1px solid #ABA8A1;
+}
+#btnSubmit
+{
+     height: 27px;
+    line-height: 25px;
+    width: 52px;
+    background: url("/images/mem_btn.gif") no-repeat scroll 0 -400px rgba(0, 0, 0, 0);
+    color:White;
+    font-weight:bold;
+    font-family:微软雅黑;
+    border:0px;
+    display:inline-block;
+    margin:15px 0px 50px 145px;
+}
+.error_tip
+{
+    color:Red;
+    display:inline-block;
+    margin:0px 0px 0px 20px;
+    display:none;
+}
+.mem_phone
+{
+    display:inline-block;
+    margin:0px 0px 0px 20px;
+   color:#5E5E78;
+   font-size:14px;
+}
+.bt_success
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E1DBCE;
+    position: absolute;
+    z-index: 6000;
+    padding: 10px;
+    left:412px;
+    top:333px;
+    color:#5E5E78;
+}
+.ico_t
+{
+    background: url("/images/ico.gif") no-repeat scroll -70px -200px rgba(0, 0, 0, 0);
+    height: 19px;
+    vertical-align: middle;
+    width: 19px;
+    display:inline-block;
+}
+.address_detail
+{
+    margin:20px;
+}
+.btnAdd
+{
+    background: url("/images/mem_btn.gif") no-repeat scroll 0 -340px rgba(0, 0, 0, 0);
+    height: 27px;
+    line-height: 25px;
+    width: 120px;
+     border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    color:#FFFFFF;
+}
+.my_address
+{
+    margin-top:20px;
+}
+.address_info
+{
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+li.first
+{
+    background: url("/images/address.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    padding-bottom: 10px;
+}
+.address_info li
+{
+    line-height: 24px;
+    overflow: auto;
+}
+.div_right
+{
+    float:right;
+}
+.div_left
+{
+    float:left;
+    font-weight:bold;
+}
+.div_right a
+{
+    text-decoration:none; color: #005EA7;
+}
+.address_tip
+{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-family:@微软雅黑;
+    color:#999999;
+    border-bottom:1px solid #E6E6E6;
+    text-align:center;
+    display:none;
+}
+.addAddress
+{
+    position:absolute;
+    top:257px;
+    left:265px;
+    width:445px;
+    height:300px;
+    border:1px solid #FABDBC;
+    z-index:100;
+    background-color:#FFFFFF;
+    display:none;
+}
+.add_header
+{
+    height:32px;
+    line-height:32px;
+    width:100%;
+    background: url("/images/mem_bg_x.gif") repeat-x scroll 0 -150px #FFFFFF;
+    border-bottom:1px solid #FABDBC;
+}
+.add_header span
+{
+    color:#5E5E78;
+    font-size:14px;
+    margin-left:15px;
+    display:inline-block;
+}
+.add_header a
+{
+    display:inline-block;
+    height:12px;
+    width:12px;
+    background-image:url("/images/close.jpg");
+    margin:11px 0px 0px 320px;
+}
+.add_detail
+{
+    margin:30px 0px 0px 45px;
+    padding:0px;
+}
+.add_detail label
+{
+    width:80px;
+    display:inline-block;
+    font-size:14px;
+    font-family:微软雅黑;
+    text-align:right;
+    color:#5E5E78;
+    margin-bottom:18px;
+}
+.add_detail input
+{
+    display:inline-block;
+    margin:0px 0px 0px 20px;
+    height:24px;
+    width:200px;
+    border:1px solid #ABA8A1;
+}
+.add_detail span
+{
+    color:#A00008;
+}
+#btnUpdate,#btnAdd
+{
+    height: 27px;
+    line-height: 25px;
+    width: 52px;
+    background: url("/images/mem_btn.gif") no-repeat scroll 0 -400px rgba(0, 0, 0, 0);
+    color:White;
+    font-weight:bold;
+    font-family:微软雅黑;
+    border:0px;
+    display:inline-block;
+    margin:15px 0px 50px 145px;
+}

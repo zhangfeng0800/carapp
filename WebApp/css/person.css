@@ -1,0 +1,127 @@
+.frome_per{
+	width: 966px;
+}
+.clearfix:after{
+ content:".";
+ display:block;
+ height:0;
+ line-height:0;
+ clear:both;
+ visibility:hidden;
+}
+.clearfix{display:inline-block;}
+/* Hide from IE Mac */
+.clearfix{display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+a{color:#5E5E5E; text-decoration: none;}
+a:hover{color:#DA5700; text-decoration: none;}
+/*左浮动全局css*/
+.per_left,.right_part_per,.person_float,.per_ul li,.dingdan_til_ul li{ display: inline; float:left;}
+.right_part_per{
+	margin-left: 10px;
+	width: 790px;
+}
+.per_info{
+	background: #FFF6F7;
+	border:1px solid #FABDBC;
+	line-height: 40px;
+	padding: 20px 30px;
+}
+.per_info strong{ font-size: 14px;}
+.Digital{ color: #A10000; font-weight: bold;}
+.pen_btn{
+	background: url(../images/penbtn.gif) no-repeat left 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	float: left;
+	display: block;
+	padding-left: 8px;
+	height: 20px;
+	line-height: 20px;
+	margin:10px 5px 0 0;
+	text-decoration: none;
+}
+.pen_btn:hover{ color:#fff; text-decoration: none;}
+.pen_btn b{
+	background: url(../images/penbtn.gif) no-repeat right -19px;
+	font-weight: normal;
+	padding-right: 8px;
+	float: left;
+}
+.person_float{ margin-right: 5px;}
+
+.right_section{ margin-top:20px;}
+.per_til{
+	color:#5E5E5E;
+	font:bold 14px "Microsoft Yahei";
+}
+.per_bg{ margin-top: 15px;}
+.per_ul li{ width: 390px;}
+.per_ul li a{font-size: 14px;}
+.dingdan_til{
+	border-bottom: 1px solid #FBBBBB;
+	height:27px;
+}
+.dingdan_til_ul{ margin-left: 10px;}
+.dingdan_til_ul li a{
+	background: url(../images/person_til.gif) no-repeat right 0;
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	width: 111px;
+}
+.dingdan_til_ul li a.active{background: url(../images/person_til.gif) no-repeat left 0; color:#AF1515;}
+
+/*订单table*/
+.order_tb{ margin-top: 15px; width: 100%;}
+.order_tb tr td{
+	border:1px solid #ededed;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.order_tr{
+	background: url(../images/table.gif) repeat-x;
+	border-top:1px solid #e7e7e7;
+	height: 30px;
+	line-height: 30px;
+}
+.order_tr td{
+	font-weight: bold;
+	text-align: center;
+}
+.order_btn{
+	background: url(../images/orderbtn.png) no-repeat;
+	display: block;
+	float: right;
+	height: 31px;
+	line-height: 31px;
+	margin-top: 15px;
+	padding-left: 23px;
+	width: 63px;
+}
+
+/*我的订单*/
+.jiansuo{
+	background: url(../images/person_tab.png) repeat-x;
+	border:1px solid #FBBBBB;
+	border-bottom: none;
+	font-size: 14px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 15px;
+}
+.jiansuo_bg{border:1px solid #FBBBBB; line-height: 180%; padding: 20px;}
+.person_button{
+	background: url(../images/orderbtn2.png) no-repeat;
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	height: 27px;
+	line-height: 27px;
+	margin: 3px 3px 0 5px;
+	width: 75px;
+}

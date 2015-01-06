@@ -1,0 +1,13 @@
+
+.ser_style{
+	background: url(../images/ser_rig.gif) no-repeat;
+	height: 590px;
+	width: 138px;
+    z-index: 9999999;
+}
+.ser_style a{
+	display: block;
+	height: 133px;
+	width: 138px;
+	text-indent: 99999px;
+}

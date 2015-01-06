@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+.clearfix:after{
+ content:".";
+ display:block;
+ height:0;
+ line-height:0;
+ clear:both;
+ visibility:hidden;
+}
+.clearfix{display:inline-block;}
+/* Hide from IE Mac */
+.clearfix{display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+body{
+    _position:relative;
+    overflow-x:hidden;
+}
+.ser_box{
+    position:fixed;
+    _position:absolute;
+    top:80px;
+    right:-135px;/*显示为-135，不显示为0*/
+    height:590px;
+    width:167px;
+    margin:0px;
+    padding:0px;
+}
+.ser_sidebar{
+	background: url(../images/side.gif) no-repeat 0 30%;
+	cursor: pointer;
+	float: left;
+	height: 590px;
+	text-indent: -9999px;
+	width: 33px;
+}
+.ser_mod{ /*border-bottom: 1px solid #ddd;*/ padding-bottom: 0px;}
+.ser_main{
+	/*background: url(../images/sertop.jpg) no-repeat #fff;*/
+    background: #fff;
+	border: 2px solid #ff812c;
+	border-radius: 5px;
+	/*padding-top: 50px;*/
+	float: left;
+	height: auto;
+	width: 130px;
+    display: none;
+}
+.ser_til{font-weight: bold; font-size: 12px; padding: 5px 0 0 5px;}
+.ser_bg{ font-size: 12px; margin-top: 10px; text-align: center;}
+.ser_bg .ser_ewm{ display:block; margin:0 auto;width: 80px; height: 80px; }
+.ser_bor_none{ border: none;}

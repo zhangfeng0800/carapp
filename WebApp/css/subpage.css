@@ -1,0 +1,795 @@
+/* CSS Document */
+.sub-banner,.dc-process,.step,.zhifu-info,.city,.main-box,.content,.Tour_Scenic{ margin: 0 auto; width: 1000px;}
+.dc-step li,.dc-main,.dc-side,.yongche-til,.choose-radio,.car-mod-info dt,.car-mod-info dd,.car-mod-ul li,.span-btn,.per-info-name,.sel-order,.city-con li,.dc-style-tab,.car-l,.car-mid,.car-r,.car-mod-ul li span.feiyong,.login-left,.login-right,.login-p strong,.sidebar,.main,.fleft,.person-tab-order a,.per-name-style,.order-info-ul li,.Tour_img dt,.Tour_img dd,.Tour_til,.Tour_ticket,.Tour_add,.Tour_num,.Tour_ticket span,.Tour_Scenic_til dt{ display: inline; float: left;}
+
+.sub-banner{ width: 100%;}
+.sub-banner-a{
+	display: block;
+	height: 110px;
+	text-indent: -9990em;
+	width: 100%;
+}
+.dc-process{ margin-top: 15px;}
+
+/*订车步骤*/
+.step{height: 40px; width: 940px;}
+.dc-step li{
+	background: url(../images/step.png) no-repeat 0 0;
+	color:#8e8e8e;
+	font: 18px "Microsoft Yahei","黑体";
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 235px;
+}
+.dc-step li.step-one{ background-position: 0 0;}
+.dc-step li.step-gray{ background-position: -240px 0;}
+.dc-step li.step-gray-end{ background-position: right 0;}
+.dc-step li.step-one-orange{ background-position: 0 -43px; color: #fff;}
+.dc-step li.step-orange{ background-position: -240px -43px; color:#fff;}
+.dc-step li.step-orange-end{ background-position: right -43px; color:#fff;}
+
+.dc-info{ padding: 20px 0 0;}
+.dc-main{margin-left:25px; padding-left:10px;width: 640px;}
+.dc-side{ 
+	background: #f3f3f3;
+	float: right;
+	min-height: 220px;
+	height: auto;
+	_height:220px;
+	margin-left: 15px;
+	padding: 15px;
+	width: 250px;}
+.yc-type{ margin-bottom: 20px;}
+.yongche-til{ margin-right: 10px;}
+.yongche-fs{padding-left: 80px;}
+.yongche-fs li{ height:70px;}
+.yc-ico{
+	display: block;
+	float: left;
+	height: 36px;
+	padding-left: 5px;
+}
+.yc-ico img{ display: block; float: left; margin:-5px 10px 0 0;}
+
+.yc-gray{color:#999; font-size: 12px;}
+.yc-btn{
+	background: url(../images/stepBtn.png) no-repeat;
+	color: #fff;
+	display: block;
+	font: 16px "Microsoft Yahei","黑体";
+	height: 41px;
+	line-height: 41px;
+	margin-left: 80px;
+	text-align: center; 
+	width: 248px;
+}
+.yc-btn:hover{ background-position: 0 -43px; color: #fff; text-decoration: none;}
+.ser-tel{ margin:10px auto;}
+.per-ser{font: 16px "Microsoft Yahei","黑体";}
+.per-ser-til{border-bottom: 1px solid #ddd;height: 35px;line-height: 35px;}
+.ser-info{margin: 25px auto;}
+.short-btn{
+	background: url(../images/chooseBTN.png) no-repeat;
+	color:#fff;
+	display: block;
+	font: 16px "Microsoft Yahei","黑体";
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	width: 250px;
+}
+.short-btn:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.car-mod-info{border-bottom: 2px dashed #ddd; padding: 25px 0;}
+.car-mod-info dt{
+	margin-right: 15px;
+	height: 110px;
+	width: 240px;
+}
+.car-mod-info dt img{height: 140px;width: 250px;}
+.car-mod-info dd{ padding-top: 10px; width: 360px;}
+.car-mod-til{
+	font:bold 16px Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+    width: 100%;
+}
+.car-mod-til em{
+	font-weight: normal;
+	font-size: 16px;
+}
+.car-mod-ul li{ line-height: 200%; width: 170px;}
+.span-btn{
+	background: #999;
+	color:#fff;
+	display: block;
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 5px;
+	text-align: center;
+	width: 20px;
+}
+.car-mod-ul .choose-mod-yuding{ margin-top: 20px; width: 100%;}
+.car-mod-ul .choose-mod-yuding a{
+	background: url(../images/chooseBTN.png) no-repeat;
+	color:#fff;
+	display: block;
+	font-size: 14px;
+	float: right;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	width: 80px;
+}
+.car-mod-ul .choose-mod-yuding a:hover{ text-decoration: none;}
+.car-side-mar{ margin-top: 10px;}
+.car-zuche-con li{ font-size: 12px; line-height: 180%;}
+.section{ margin:0 auto 25px;}
+.per-info-til{
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+.per-info-name{ margin-right: 10px;}
+.per-info-text{ 
+	font-size: 12px;
+	margin-top: 15px; 
+	padding-left: 50px;}
+.per-info-input{ 
+	border: 1px solid #ddd; 
+	height: 20px; 
+	line-height: 20px; 
+	margin-top: 5px;
+	*margin-top: 2px;
+	width: 300px;
+}
+.text-ul{ padding:15px 0 0 50px;}
+.text-ul li{font-size: 12px; line-height:24px; margin:2px 0px;}
+.text-ul-ot{padding: 0;}
+.text-ul-ot li{ font-size: 14px;}
+.text-ul-ot .price-total{ float: right;}
+.zhifu-info{
+	background: #fffeed;
+	border: 1px solid #f7dcaa;
+	padding: 20px 30px;
+	width: 940px;
+}
+
+.text-ul li .invoice_tit {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+/*二级页面价格css*/
+.price{
+	color:red;
+	font-weight: bold;
+	font-size: 24px;
+}
+.pay-yue{ margin-top: 15px;}
+.pay-btn{ float: right;}
+
+.pay-ok{
+	background: url(../images/pay.png) no-repeat 0 10px;
+	border:1px solid #ddd;
+	padding: 15px 15px 15px 80px;
+}
+.pay-ok p{font-size: 12px; line-height: 260%; }
+.pay-ok .pay-text{
+	color:#179900;
+	font-size: 18px;
+	font-weight: bold;
+}
+.order-text{ font-size: 18px;}
+.em-red{ color:#dd4b39;}
+.sel-order{
+	background: url(../images/chooseBTN.png) no-repeat;
+	color:#fff;
+	display: block;
+	font: 14px "Microsoft Yahei","黑体";
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	text-align: center;
+	width: 120px;
+}
+.sel-order:hover{color:#fff; text-decoration: none;}
+
+/*用车方式*/
+.city{
+	background: url(../images/zc-bg.jpg) no-repeat;
+	border: 1px solid #ddd;
+	height: 145px;
+	padding:20px 20px 20px 250px;
+	width: 730px;
+}
+.city-til,.city-til-red{font:26px "Microsoft Yahei","黑体";}
+.city-til-red{color:#fa4c4c; font-size: 20px; }
+.city-info{margin-top:5px;}
+
+.city-con li{ margin-right: 10px;}
+.city-con li a{
+	display: block;
+	padding: 1px 5px;
+	white-space: nowrap;
+}
+.city-con li a:hover,.city-con li a.selected{
+	background: #ec7500;
+	color: #fff;
+	text-decoration: none;
+}
+.city-bg{ margin-top: 15px;}
+.dc-style-til{background: url(../images/choose-car-line.gif) repeat-x 0 100%;}
+.dc-style{
+	border: 1px solid #ddd;
+	border-top: none;
+	padding: 15px;
+	width: 970px;
+}
+.dc-style-tab{
+	background: #fff;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	display: block;
+	font: 18px "Microsoft Yahei","黑体";
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+	text-align: center;
+	width: 100px;
+}
+.dc-style-tab-gray{background: #f2f1ef; border: none;}
+.car-l{ width: 260px}
+.car-l img{
+	display: block;
+	height: 140px;
+	width: 250px;
+}
+.car-mid{ width: 450px;}
+.car-r{ padding-top: 10px; width: 200px;}
+
+.car-mod-class{ border-bottom: 2px dashed #ddd; margin: 30px 0; height: auto;}
+.price-zuche{ font-family: "Microsoft Yahei","黑体"; font-size: 18px; padding-left: 15px;}
+.price-xianjia strong{color: #cc0033; font: bold 30px "Microsoft Yahei","黑体"; padding-left: 15px;}
+.zuche-book{
+	background: url(../images/ycfs.png) no-repeat;
+	color:#fff;
+	display: block;
+	font: 20px "Microsoft Yahei","黑体";
+	height: 44px;
+	line-height: 44px;
+	letter-spacing: 12px;
+	text-align: center;
+	width: 161px;
+}
+.zuche-book:hover{ color: #fff;text-decoration: none;}
+.hotLine-bg{ background: url(../images/hotlinebg.jpg) no-repeat;}
+
+.hot-line-img{
+	height: 100px;
+	width: 150px;
+}
+
+.price{ color:#c03; font-size: 14px; font-weight: bold;}
+.book-line-btn{
+	background: url(../images/chooseBTN.png) no-repeat;
+	color:#fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 80px;
+}
+.book-line-btn:hover{
+	border: 1px solid #e05b00;
+	border-top: none;
+	border-left: none;
+	height: 29px;
+	width: 79px;
+	color: #fff;
+	text-decoration: none;
+}
+.hot-line-table tr td{
+	line-height: 230%; 
+	padding: 10px 0;
+	vertical-align: middle;
+}
+/*login*/
+.main-box{ margin:15px auto;}
+.login-left{
+	height: 370px;
+	width: 480px;
+}
+.login-left img{
+	display: block;
+	height: 370px;
+	width: 480px;
+}
+.login-right{
+	border:1px solid #ddd;
+	float: right;
+	height: 330px;
+	padding: 20px;
+	width: 310px;
+}
+.login-name{
+	font: 16px "Microsoft Yahei","黑体";
+	margin-bottom:20px; 
+}
+.login-p{ height: 40px;}
+.login-p strong{ 
+	font-size: 12px; 
+	margin-right: 10px;
+	*margin-top: 5px;
+}
+.login-p .input-style,.in-border{
+	border: 1px solid #ddd;
+	height: 25px; 
+	line-height: 25px; 
+	width: 240px;
+}
+.rember{ font-size: 12px;}
+.forget-pwd{ font-size: 12px;  margin-left: 170px;}
+.login-btn{
+	background: url(../images/login-btn.png) no-repeat;
+	border: none;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 5px;
+	width: 295px;
+}
+.zhuce{ margin-top: 15px;}
+.openID{color:#999; font-size: 12px;}
+
+.reg-til{
+	border-bottom: 1px solid #ddd;
+	font: 18px "Microsoft Yahei","黑体";
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.f-lh{ height: 50px;}
+.reg-bg{
+	background: url(../images/reg.jpg) no-repeat right bottom;
+}
+.reg-name{
+	display: block;
+	float: left;
+	margin-right: 15px; 
+	text-align: right;
+	width: 80px;
+}
+.xieyi{ font-size: 12px;}
+.xieyi-margin{ margin-left: 80px;}
+.login-link{ font-size: 12px; margin-left: 750px;}
+
+/*个人中心*/
+.content{ margin-top: 15px; font-size: 12px;}
+.sidebar{border:1px solid #E6E6E6; width:183px; margin-right: 15px;}
+.main{ width: 798px;}
+.sidetil{
+	border-top: 3px solid #EE7835;
+	font:bold 14px "Microsoft Yahei";
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.per-top{ margin-top: 10px;}
+.per-center{ padding-bottom: 10px;}
+.per-center dt{
+	border: 1px solid #E6E6E6;
+	border-left: none;
+	border-right: none;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+.per-center dd{  line-height: 25px; padding-left: 25px;}
+.article{
+	border:1px solid #E6E6E6;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+.article-padding{ padding:0;}
+.price-num{
+	color:#D60000;
+	font-weight: bolder;
+}
+.fleft{ margin-right: 10px;}
+.person-button{
+	background: url(../images/per-btn.png) no-repeat 0 -26px;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.person-button em{
+	background: url(../images/per-btn.png) no-repeat 100% 0;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	padding-right: 10px;
+}
+.person-button:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.per-order-til{
+	background: #f3f3f3;
+	border-bottom: 1px solid #E6E6E6;
+	font:bold 14px "Microsoft Yahei";
+	height: 30px;
+	line-height:30px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+.per-order-bg{ padding: 15px;}
+
+.per-btn-chaxun{
+	background: url(../images/person-chaxun.gif) no-repeat;
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	height: 26px;
+	line-height: 26px;
+	margin-left: 10px;
+	width: 68px;
+}
+.per-button-border{border:none;cursor:pointer;}
+.per-border-none{ border: none;}
+.per-til-h3{font:bold 14px "Microsoft Yahei";}
+
+.person-tab-order{
+	border-bottom: 1px solid #EE7835;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 10px;
+}
+.person-tab-order a{ margin:0 6px;}
+.per-order-active{
+	background: #EE7835;
+	color:#fff;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 88px;
+}
+.per-order-active:hover{color:#fff; text-decoration: none;}
+.order_tb{ margin-top: 15px; width: 100%;}
+.order_tb tr td{
+	border:1px solid #ededed;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.order_tr{
+	background: url(../images/table.gif) repeat-x;
+	border-top:1px solid #e7e7e7;
+	height: 30px;
+	line-height: 30px;
+}
+.order_tr td{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*充值成功*/
+.rec-suc{
+	background: url(../images/rec-suc.png) no-repeat 50px 23px #FFFEED;
+	border-top: 2px solid #EE7835;
+	color:#EE7835;
+	font: bold 18px "Microsoft Yahei";
+	height: auto;
+	line-height: 180%;
+	padding: 25px 0 15px 102px;
+}
+.rec-suc span{ color:#333;  font-weight: normal;}
+
+.bank-show{ padding: 0; margin-top: 15px;}
+.back-tab{
+	background: url(../images/hotLine.gif) repeat-x 0 100%;
+	height: 35px;
+	line-height: 35px;
+}
+.back-tab a{
+	display: block;
+	float: left;
+	text-align: center;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	width: 80px;
+}
+.bank-selected{
+	background: #fff;
+	border: 1px solid #BEBEBE;
+	border-bottom: none;
+	float: left;
+	font-weight: bold;
+}
+
+.bank-class{ margin: 15px auto;}
+.bank-btn{ margin:0;}
+
+.per-line-til{
+	border-bottom: 1px solid #BEBEBE;
+	font: bold 14px "Microsoft Yahei";
+	height: 35px;
+	line-height: 35px;
+}
+.per-line-bg{  padding: 15px;}
+
+.per-ul li{ float: left; padding:5px 0; width: 600px; height:30px;}
+.per-name-style{
+	display: block;	
+	margin-right: 10px;
+	text-align: right;
+	width: 80px;
+}
+.per-input{
+	border: 1px solid #ddd;
+	height: 30px;
+	line-height: 30px;
+	width: 250px;
+}
+.per-button-padding{ padding-left: 95px;}
+.order-name-style{margin-right: 50px;}
+.order-name-top{ margin-bottom: 30px;}
+.order-info-ul,.order-info-con{  margin-bottom: 20px;}
+.order-info-ul li,.order-info-con li{ 
+	line-height: 35px; 
+	width: 350px;
+}
+.order-info-con1 li{ 
+	line-height: 35px; 
+	width: 100%;
+}
+.login-link{ font-size: 12px; margin-left: 150px;}
+
+/*授权人*/
+.row{margin: 10px 0 10px 50px;}
+.labelname{
+	display: block;
+	float:left;
+	margin-right: 10px;
+	text-align: right;
+	width: 100px;
+}
+.per-order-active:hover{color:#fff; text-decoration: none;}
+.order_tb{ margin-top: 15px; width: 100%;}
+.order_tb tr td{
+	border:1px solid #ededed;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.order_tr{
+	background: url(../images/table.gif) repeat-x;
+	border-top:1px solid #e7e7e7;
+	height: 30px;
+	line-height: 30px;
+}
+.order_tr td{
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.error-page{
+	background: url(../images/404.jpg) no-repeat 50% 50%;
+	height: 300px;
+}
+.text-error{ padding: 232px 0 0 0; text-align: center;}
+.text-error a{ color:#8AB6DB; font: bold 18px "Microsoft Yahei"; margin-right: 20px;}
+.error-page-five{background: url(../images/500.jpg) no-repeat 50% 50%;}
+
+.about{ background: #FFF;}
+
+.con-til-style{
+	font: bold 16px "Microsoft Yahei";
+	height: 35px;
+	line-height: 35px;
+	margin: 10px 0;
+	padding:0 20px;
+}
+.con-text-gray{ border-bottom: 1px dashed #ddd; color:#ccc; font-size: 12px; height: 25px;line-height: 25px; margin: 0 auto;  width: 760px;}
+.con-text{ padding: 20px;}
+.con-text{
+	font-size: 14px;
+	line-height: 220%;
+}
+.con-ul-lh{}
+.con-ul-lh li{
+	border-bottom: 1px solid #EBEBEB;
+	height:35px;
+	line-height:35px;
+}
+.con-ul-lh li.lasted{ border:none;}
+.con-ul-lh li a{ padding-left: 15px;}
+.con-ul-lh li a.selected{ background:#FF7E00; color:#fff;  display:block; }
+.error-page{
+	background: url(../images/404.jpg) no-repeat 50% 50%;
+	height: 300px;
+}
+.text-error{ padding: 232px 0 0 0; text-align: center;}
+.text-error a{ color:#8AB6DB; font: bold 18px "Microsoft Yahei"; margin-right: 20px;}
+.error-page-five{background: url(../images/500.jpg) no-repeat 50% 50%;}
+
+.main-margin{ margin:0;}
+.about-main{border: 1px solid #EBEBEB; width: 796px;}
+/** 
+* @date:2014-4-17;
+* @content:旅游线路添加;
+* @by pudding
+*/
+.Tour_bg{background: url(../images/tour.jpg) no-repeat 0 100%;}
+.Tour_list{
+	border-bottom: 2px dashed #eee;
+	padding: 10px 0;
+    margin-bottom:10px;
+}
+.Tour_img dt{ margin-right: 15px; width: 200px;}
+.Tour_img dd{
+    position: relative; width: 750px;}
+.Tour_img dt a img{
+	display: block;
+	height: 150px;
+	width: 200px;
+}
+.Tour_img dt a p{ margin-top: 8px; text-align: center;}
+.Tour_info{ border-bottom: 1px solid #eee; height: 35px; width: 750px;}
+.Tour_til{height: 30px; overflow: hidden;} 
+.Tour_til strong{font:18px "Microsoft Yahei";}
+.Tour_ticket{
+    font-size: 14px;
+    position: absolute;
+    top:140px;
+    right:0px;
+    width:240px;
+}
+.Tour_add{
+	background: #F57800;
+	/*border: 1px solid #ddd;*/
+	cursor: pointer;
+	color:#fff;
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	width: 15px;
+}
+.Tour_add:hover{ color:#fff; text-decoration: none;}
+.Tour_num{
+	border: 1px solid #F57800;
+	border-width:1px 0; 
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 30px;
+}
+.Tour_ticket_info{padding-top:5px; margin:0 5px;}
+.Tour_goods{
+    line-height: 180%;
+    margin-top: 10px;
+}
+.AITour_price{
+	font: 20px "Microsoft Yahei";
+	position: absolute;
+	top:80px;
+	right:0;
+	width: auto;
+}
+.Tour_taocan{color:#fb884c; margin-left: 10px;}
+
+.Tour_carType{
+	border: 1px solid #ddd;
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin:8px 0;
+	padding-left: 10px;
+    position: relative;
+    width: 400px;
+}
+.Tour_carType a{
+    background: #eaeaea;
+    color:#000;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-right: 5px;
+}
+.Tour_carType a:hover{
+    background: #ff8532;
+    color:#fff;
+    text-decoration: none;
+}
+.Tour_carType_selected{
+    background: url(../images/xiaoze_dui.gif) no-repeat 100% 100%;
+    border:1px solid #9c6;
+}
+.Tour_btn{
+    position: absolute;
+    top:185px;
+    right:10px;
+}
+.Tour_Scenic{
+    border:1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    width: 970px;
+}
+.Tour_Scenic_til.dl_second{margin-bottom: 10px;}
+.Tour_Scenic_til dt{font: 14px "Microsoft Yahei"; padding-top: 2px; margin-bottom: 5px;}
+.Tour_Scenic_til dd{ float: left; padding-top: 0px;}
+.Tour_Scenic_til dd a{font-size: 12px; margin-right: 5px;white-space: nowrap;}
+.Tour_Scenic_til dd a.Tour_sel{ background: #ff8532; color:#fff; padding: 1px 5px;}
+.Tour_scenic_info{
+    color:#999;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.Tour_scenic_info a{ font-size: 12px; color:#999; margin-left: 5px;}
+.travel_class{
+	border: 1px solid #ddd;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 4px 3px;
+	margin:5px 5px 0 0;
+	white-space:nowrap;
+}
+.travle_gray{
+	background: #ddd;
+	color:#000;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 2px;
+}
+/**
+* @content page css
+* @time:2014-4-26
+*/
+.con_til{
+    font: 20px "Microsoft Yahei","黑体";
+    margin-bottom: 15px;
+    text-align: center;
+}
+.con_artSourse{
+    border-top:1px dotted #bbb;
+    color:#999;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.con_artSourseBottom{
+    border-bottom:1px dotted #bbb;
+    color:#999;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom:10px;
+}
+.con_text{
+    font-size: 14px;
+    line-height: 200%;
+    margin-top: 0px;
+}

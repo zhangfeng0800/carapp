@@ -1,0 +1,10 @@
+﻿System.ArgumentException: 类型“OpenNETCF.Tapi.LINEINITIALIZEEXPARAMS”不能作为非托管结构进行封送处理；无法计算有意义的大小或偏移量。
+   在 System.Runtime.InteropServices.Marshal.SizeOfHelper(Type t, Boolean throwIfNotMarshalable)
+   在 OpenNETCF.Tapi.LINEINITIALIZEEXPARAMS..ctor(IntPtr hEvent)
+   在 OpenNETCF.Tapi.Tapi.Initialize()
+   在 WebApp.GetMobileCore.GetIMEI() 位置 D:\CarAppLaters\trunk\WebApp\twicepay\yeepay\MobileCore.cs:行号 110
+System.ArgumentException: 类型“OpenNETCF.Tapi.LINEINITIALIZEEXPARAMS”不能作为非托管结构进行封送处理；无法计算有意义的大小或偏移量。
+   在 System.Runtime.InteropServices.Marshal.SizeOfHelper(Type t, Boolean throwIfNotMarshalable)
+   在 OpenNETCF.Tapi.LINEINITIALIZEEXPARAMS..ctor(IntPtr hEvent)
+   在 OpenNETCF.Tapi.Tapi.Initialize()
+   在 WebApp.GetMobileCore.GetIMEI() 位置 D:\CarAppLaters\trunk\WebApp\twicepay\yeepay\MobileCore.cs:行号 110

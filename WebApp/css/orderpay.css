@@ -1,0 +1,331 @@
+﻿#container
+{
+    margin:0px auto 50px auto;
+    width:966px;
+    height:auto;
+    padding:0px;
+}
+.showcar
+{
+    border: 1px solid #C8C8C8;
+    line-height:55px;
+    padding: 10px 20px;
+     background: none repeat scroll 0 0 #F0F0F0;
+     margin-top:10px;
+}
+.showcar ul
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-size:14px;
+    font-weight:bold;
+}
+.showcar ul li
+{
+    padding:0px;
+    list-style:none;
+    float:left;
+    margin:0px 62px 0px 0px;
+}
+#typeImage
+{
+    width:50px;
+    height:50px;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+.recharge
+{
+    margin-top:10px;
+     border: 1px solid #C8C8C8;
+       padding: 20px;
+}
+.ch_top
+{
+    font-size:14px;
+}
+.f_l
+{
+    float: left;
+}
+.bold
+{
+    font-weight:bold;
+}
+.gray
+{
+    color:#B3B3A7;
+}
+.f_r
+{
+    float:right;
+}
+.f_r a
+{
+    color: #4F4FFF;
+    text-decoration:none;
+}
+.dash
+{
+    border-color: -moz-use-text-color -moz-use-text-color #BCBCBB;
+    border-image: none;
+    border-style: none none dashed;
+    border-width: 0 0 1px;
+}
+.f16
+{
+     font-size:16px;
+}
+.ch_bank
+{
+    margin-top:35px;
+    padding:0px;
+}
+.ch_left
+{
+    float:left;
+    width:100%;
+    height:auto;
+}
+.tip
+{
+    background: none repeat scroll 0 0 #FFFFCD;
+    border: 1px solid #FFCB99;
+    padding: 6px 10px;
+    display:inline-block;
+    margin:0px 0px 20px 18px;
+}
+.t_ul
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-size:14px;
+}
+.t_ul li
+{
+    padding:0px;
+    list-style:none;
+    float:left;
+    margin:0px;
+    width:15%;
+}
+.showpay
+{
+    padding:0px;
+    margin-top:20px;
+    background: url("/images/bg_x.gif") repeat-x scroll 0 -250px #FFFFFF;
+    height: 41px;
+   /* border:1px solid #E1DBCD;*/
+}
+.show_t
+{
+    width:80%;
+    font-size:15px;
+    font-weight:bold;
+    /*padding-left:10px;*/
+}
+.show_t a
+{
+    display:inline-block;
+    /*width:47%;*/
+    width:100px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: center;
+    cursor:pointer;   
+    text-decoration: none;
+}
+.show_t a:hover
+{
+    color:#A10016;
+}
+.show_t span
+{
+    display:inline-block;
+    width:25%;
+        height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+#alipay_div
+{
+    margin:90px auto 20px auto;
+    text-align:center;
+}
+#unionpay_div
+{
+    margin:90px auto 20px auto;
+    text-align:center;
+}
+.active
+{
+    border:1px solid #E1DBCD;
+    border-bottom:none;
+    background-color:#FFFFFF;
+    height:40px;
+    line-height:40px;
+}
+.b_t
+{
+   margin:90px auto 0px auto;
+   text-align:center;
+}
+#alipaySubmit,#yeepaySubmit,#bindYeePaySubmit,#unionpaySubmit
+{
+     background: url("/images/btn.gif") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 185px;
+    border:0px;
+    outline:none;
+}
+.none
+{
+    display:none;
+}
+#lblAccount
+{
+    display:inline-block;
+    margin:0px 0px 25px 20px;
+}
+.other
+{
+   margin-top:15px;
+   padding-left:113px;
+}
+#otherMoney
+{
+        height: 23px;
+    line-height: 23px;
+    width:80px;
+    border:1px solid #ABA8A1;
+    display:inline-block;
+    margin-left:5px;
+}
+.error_tip
+{
+        color: #FF0000;
+    margin-left: 7px;
+    display:inline-block;
+}
+.ch_right
+{
+   margin:0px;
+   padding:0px;
+   width:220px;
+   margin-left:10px;
+   float:left;
+}
+.a_t
+{
+     background: none repeat scroll 0 0 #FFFFCD;
+    border: 1px solid #FFCB99;
+    padding: 10px 20px;
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:20px;
+    color:#5E5E5E;
+}
+.a_t p
+{
+    margin:0px;
+    line-height:140%;
+}
+#tip
+{
+    font-size:14px;
+}
+.a_t h3
+{
+      text-align: center;
+      font-size:16px;
+      font-weight:bold;
+      margin:10px 0px 10px 0px;
+}
+.jieji {
+    background: url("/images/ico.gif") no-repeat scroll 0 -450px rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    background-position:0 -550px;
+    height:50px;
+    width:50px;
+}
+.songji {
+    background: url("/images/ico.gif") no-repeat scroll -70px -450px rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    background-position:0 -600px; 
+    height:50px; 
+    width:50px;
+}
+.shizu {
+    background: url("/images/ico.gif") no-repeat scroll right -450px rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    background-position:0 -650px; 
+    height:50px; 
+    width:50px;
+}
+.banrizu {
+    background: url("/images/ico.gif") no-repeat scroll -70px -500px rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    background-position:0 -750px;
+     height:50px; 
+     width:50px;
+}
+.rizu {
+    background: url("/images/ico.gif") no-repeat scroll 0 -500px rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    background-position:0 -700px; 
+    height:50px;
+    width:50px;
+}
+.hotline {
+    background: url("/images/ico.gif") no-repeat scroll right -500px rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    background-position:0 -800px; 
+    height:50px; 
+    width:50px;
+}
+#yeepay_div
+{
+     margin:40px auto 20px auto;
+    text-align:center;
+}
+#yeepay_div ul
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+#yeepay_div ul li
+{
+    float:left;
+    list-style:none;
+    width:33%;
+    margin-bottom:10px;
+}
+#yeepay_div ul li label
+{
+    display:inline-block;
+    margin:0px;
+    cursor: pointer;
+}
+#yeepay_div ul li label img
+{
+    display:inline-block;
+       height: 33px;
+    vertical-align: middle;
+    width: 154px;
+    cursor: pointer;
+    margin-left:6px;
+}

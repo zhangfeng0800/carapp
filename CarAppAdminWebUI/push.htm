@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function openWin() {
+            var telphone = document.getElementById("telphone").value;
+            var exten = document.getElementById("exten").value;
+            console.log(telphone);
+            window.location.href = "/layer.aspx?telphone="+telphone+","+telphone+"&callee="+exten;
+        }
+    </script>
+</head>
+<body>
+<div style=" padding:40px;">
+  用户电话号：  <input type="text" id="telphone" />
+  坐席号  <input type="text" id="exten"/><input type="button" value="下单" onclick="openWin()"/>
+  </div>
+</body>
+</html>

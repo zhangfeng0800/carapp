@@ -1,0 +1,1625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{385BB0A1-C590-4234-BDCC-4017CFDC4C9E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApp</RootNamespace>
+    <AssemblyName>WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.1.1.4\lib\net40\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Owin.1.1.4\lib\net40\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.1.1.4\lib\net40\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.1.0.1\lib\net40\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="NetPay">
+      <HintPath>..\packages\upmp\NetPay.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="UPOPSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Unionpay\UPOPSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountpaySuccess.aspx" />
+    <Content Include="ailvyou.html" />
+    <Content Include="AliPayBgTransReturn.aspx" />
+    <Content Include="api\MyAppraise.ashx" />
+    <Content Include="article.aspx" />
+    <Content Include="carinfo.aspx" />
+    <Content Include="ChooseCar.aspx" />
+    <Content Include="css\common.css" />
+    <Content Include="css\css.css" />
+    <Content Include="css\homepage.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\member.css" />
+    <Content Include="css\order.css" />
+    <Content Include="css\orderInfo.css" />
+    <Content Include="css\app.css" />
+    <Content Include="css\orderpay.css" />
+    <Content Include="css\person.css" />
+    <Content Include="css\phonecss.css" />
+    <Content Include="css\public.css" />
+    <Content Include="css\register.css" />
+    <Content Include="css\registerSuccess.css" />
+    <Content Include="css\ser.css" />
+    <Content Include="css\subpage.css" />
+    <Content Include="d.htm" />
+    <Content Include="Default.aspx" />
+    <Content Include="DailyRent.aspx" />
+    <Content Include="PCenter\UserTransMoney.aspx" />
+    <Content Include="peixun\index.html" />
+    <Content Include="FileUpLoad.aspx" />
+    <Content Include="forgetpwd.aspx" />
+    <Content Include="Frame\MemberLeft.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HandleOrderPay.aspx" />
+    <Content Include="headPic\HeadPic.gif" />
+    <Content Include="hotline.aspx" />
+    <Content Include="huanbao.html" />
+    <Content Include="images\00000001.jpg" />
+    <Content Include="images\00000002.jpg" />
+    <Content Include="images\00000003.jpg" />
+    <Content Include="images\00000004.jpg" />
+    <Content Include="images\0001.jpg" />
+    <Content Include="images\0002.jpg" />
+    <Content Include="images\0003.jpg" />
+    <Content Include="images\0004.jpg" />
+    <Content Include="images\0005.jpg" />
+    <Content Include="images\0006.jpg" />
+    <Content Include="images\0007.jpg" />
+    <Content Include="images\0008.jpg" />
+    <Content Include="images\001_02.jpg" />
+    <Content Include="images\01.jpg" />
+    <Content Include="images\02.jpg" />
+    <Content Include="images\03.jpg" />
+    <Content Include="images\04.jpg" />
+    <Content Include="images\05.jpg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\3346349614.png" />
+    <Content Include="images\3425521354.png" />
+    <Content Include="images\3728902396.png" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\404.jpg" />
+    <Content Include="images\4231483442.jpeg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\500.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\708770890.png" />
+    <Content Include="images\active.png" />
+    <Content Include="images\activity.jpg" />
+    <Content Include="images\ad.jpg" />
+    <Content Include="images\address.png" />
+    <Content Include="images\add_plus.gif" />
+    <Content Include="images\alipay.png" />
+    <Content Include="images\anpai.jpg" />
+    <Content Include="images\bank\alipay.jpg" />
+    <Content Include="images\bank\beijing.gif" />
+    <Content Include="images\bank\buohai.gif" />
+    <Content Include="images\bank\dongya.gif" />
+    <Content Include="images\bank\gongshang.gif" />
+    <Content Include="images\bank\guangda.gif" />
+    <Content Include="images\bank\guangfa.gif" />
+    <Content Include="images\bank\hangzhou.gif" />
+    <Content Include="images\bank\hebei.gif" />
+    <Content Include="images\bank\huaxia.gif" />
+    <Content Include="images\bank\hykj.jpg" />
+    <Content Include="images\bank\jianshe.gif" />
+    <Content Include="images\bank\jiaotong.gif" />
+    <Content Include="images\bank\minsheng.gif" />
+    <Content Include="images\bank\nanjing.gif" />
+    <Content Include="images\bank\nanyanbank.gif" />
+    <Content Include="images\bank\ningbo.gif" />
+    <Content Include="images\bank\nongcunshangye.gif" />
+    <Content Include="images\bank\nongye.gif" />
+    <Content Include="images\bank\pingan.gif" />
+    <Content Include="images\bank\shanghaibank.gif" />
+    <Content Include="images\bank\shangnongshang.jpg" />
+    <Content Include="images\bank\shangpufa.gif" />
+    <Content Include="images\bank\shenfa.gif" />
+    <Content Include="images\bank\tailong.gif" />
+    <Content Include="images\bank\unionpay.jpg" />
+    <Content Include="images\bank\xingye.gif" />
+    <Content Include="images\bank\yeepay.jpg" />
+    <Content Include="images\bank\youzheng.gif" />
+    <Content Include="images\bank\zhaohang.gif" />
+    <Content Include="images\bank\zheshang.gif" />
+    <Content Include="images\bank\zhongguo.gif" />
+    <Content Include="images\bank\zhongxin.gif" />
+    <Content Include="images\banrizu.jpg" />
+    <Content Include="images\baoxian - 副本.jpg" />
+    <Content Include="images\baoxian.jpg" />
+    <Content Include="images\bg_x.gif" />
+    <Content Include="images\bookbox.png" />
+    <Content Include="images\booktab.png" />
+    <Content Include="images\btn.gif" />
+    <Content Include="images\btnAll.jpg" />
+    <Content Include="images\btnSelect .jpg" />
+    <Content Include="images\btnSelect.png" />
+    <Content Include="images\car.jpg" />
+    <Content Include="images\card.jpg" />
+    <Content Include="images\chengji.jpg" />
+    <Content Include="images\chexing.jpg" />
+    <Content Include="images\choose-car-line.gif" />
+    <Content Include="images\chooseBTN.png" />
+    <Content Include="images\clientlogo.png" />
+    <Content Include="images\close.jpg" />
+    <Content Include="images\code.jpg" />
+    <Content Include="images\dailyrent.jpg" />
+    <Content Include="images\defaultCar.jpg" />
+    <Content Include="images\defaultsmall.jpg" />
+    <Content Include="images\denglu.jpg" />
+    <Content Include="images\dingche.jpg" />
+    <Content Include="images\error.gif" />
+    <Content Include="images\error.jpg" />
+    <Content Include="images\error.png" />
+    <Content Include="images\headline.gif" />
+    <Content Include="images\hepeLink2.jpg" />
+    <Content Include="images\hotLine.gif" />
+    <Content Include="images\hotlinebg.jpg" />
+    <Content Include="images\ico.gif" />
+    <Content Include="images\ico1.gif" />
+    <Content Include="images\iconH.png" />
+    <Content Include="images\iconH3.png" />
+    <Content Include="images\inactive.png" />
+    <Content Include="images\index.gif" />
+    <Content Include="images\index1_01.jpg" />
+    <Content Include="images\index1_02.jpg" />
+    <Content Include="images\index1_03.jpg" />
+    <Content Include="images\index1_04.jpg" />
+    <Content Include="images\index1_05.jpg" />
+    <Content Include="images\index1_06.jpg" />
+    <Content Include="images\index1_07.jpg" />
+    <Content Include="images\index1_08.jpg" />
+    <Content Include="images\index1_09.jpg" />
+    <Content Include="images\index1_10.jpg" />
+    <Content Include="images\index1_11.jpg" />
+    <Content Include="images\index1_12.jpg" />
+    <Content Include="images\index1_13.jpg" />
+    <Content Include="images\index2_01.jpg" />
+    <Content Include="images\index2_02.jpg" />
+    <Content Include="images\index2_03.jpg" />
+    <Content Include="images\index2_04.jpg" />
+    <Content Include="images\index2_05.jpg" />
+    <Content Include="images\index2_06.jpg" />
+    <Content Include="images\index2_07.jpg" />
+    <Content Include="images\index2_08.jpg" />
+    <Content Include="images\index2_09.jpg" />
+    <Content Include="images\index2_10.jpg" />
+    <Content Include="images\index2_11.jpg" />
+    <Content Include="images\index2_12.jpg" />
+    <Content Include="images\index2_13.jpg" />
+    <Content Include="images\index2_14.jpg" />
+    <Content Include="images\index2_15.jpg" />
+    <Content Include="images\index3_01.jpg" />
+    <Content Include="images\index3_02.jpg" />
+    <Content Include="images\index3_03.jpg" />
+    <Content Include="images\index3_04.jpg" />
+    <Content Include="images\index3_05.jpg" />
+    <Content Include="images\index3_06.jpg" />
+    <Content Include="images\index3_07.jpg" />
+    <Content Include="images\index3_08.jpg" />
+    <Content Include="images\index3_09.jpg" />
+    <Content Include="images\index3_10.jpg" />
+    <Content Include="images\index3_11.jpg" />
+    <Content Include="images\jieji.jpg" />
+    <Content Include="images\left1.gif" />
+    <Content Include="images\left2.gif" />
+    <Content Include="images\left3.gif" />
+    <Content Include="images\left_top.gif" />
+    <Content Include="images\load.gif" />
+    <Content Include="images\loading_s.gif" />
+    <Content Include="images\login-btn.png" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\login_logo.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\mem_bg_x.gif" />
+    <Content Include="images\mem_btn.gif" />
+    <Content Include="images\more.jpg" />
+    <Content Include="images\new.gif" />
+    <Content Include="images\new_block.png" />
+    <Content Include="images\new_btn.gif" />
+    <Content Include="images\next.jpg" />
+    <Content Include="images\ok.png" />
+    <Content Include="images\orderbtn.png" />
+    <Content Include="images\orderbtn2.png" />
+    <Content Include="images\pay.png" />
+    <Content Include="images\penbtn.gif" />
+    <Content Include="images\penbtn.gif" />
+    <Content Include="images\per-btn.png" />
+    <Content Include="images\person-chaxun.gif" />
+    <Content Include="images\person_tab.png" />
+    <Content Include="images\person_til.gif" />
+    <Content Include="images\person_til.gif" />
+    <Content Include="images\phone.jpg" />
+    <Content Include="images\qq.jpg" />
+    <Content Include="images\rec-suc.png" />
+    <Content Include="images\reg.jpg" />
+    <Content Include="images\register.jpg" />
+    <Content Include="images\register_bg.jpg" />
+    <Content Include="images\register_success.jpg" />
+    <Content Include="images\register_success1.jpg" />
+    <Content Include="images\register_top.jpg" />
+    <Content Include="images\rizu.jpg" />
+    <Content Include="images\score0.png" />
+    <Content Include="images\score12.png" />
+    <Content Include="images\score345.png" />
+    <Content Include="images\serIco.png" />
+    <Content Include="images\serIco1.png" />
+    <Content Include="images\serTel.png" />
+    <Content Include="images\ser_rig.gif" />
+    <Content Include="images\shizu.jpg" />
+    <Content Include="images\shnefa.jpg" />
+    <Content Include="images\siji.jpg" />
+    <Content Include="images\sina.jpg" />
+    <Content Include="images\songji.jpg" />
+    <Content Include="images\step.png" />
+    <Content Include="images\stepBtn.png" />
+    <Content Include="images\subpage.png" />
+    <Content Include="images\table.gif" />
+    <Content Include="images\tam.jpg" />
+    <Content Include="images\tel.jpg" />
+    <Content Include="images\telhotline.gif" />
+    <Content Include="images\tencent.jpg" />
+    <Content Include="images\tour.jpg" />
+    <Content Include="images\upmpay.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\wangfan.gif" />
+    <Content Include="images\weixin.jpg" />
+    <Content Include="images\xianlu.jpg" />
+    <Content Include="images\xianluico.png" />
+    <Content Include="images\xiaoze_dui.gif" />
+    <Content Include="images\ycfs.png" />
+    <Content Include="images\yinlian.jpg" />
+    <Content Include="images\yuding1.jpg" />
+    <Content Include="images\yuding2.jpg" />
+    <Content Include="images\zc-bg.jpg" />
+    <Content Include="images\zhifu.jpg" />
+    <Content Include="images\zuche.jpg" />
+    <Content Include="InternalError.aspx" />
+    <Content Include="images\jiantou.gif" />
+    <Content Include="jiesong.html" />
+    <Content Include="js\carmodel.js" />
+    <Content Include="js\fixpng.js" />
+    <Content Include="js\jquery-1.8.0.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\lanrenzhijia.js" />
+    <Content Include="js\Marquee.js" />
+    <Content Include="js\moment.min.js" />
+    <Content Include="js\png.js" />
+    <Content Include="js\scrollnews.js" />
+    <Content Include="js\tab.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="logo\hepeLink1.jpg" />
+    <Content Include="logo\hepeLink2.jpg" />
+    <Content Include="logo\hepeLink3.jpg" />
+    <Content Include="logo\huanbao.html" />
+    <Content Include="logo\jiesongji.html" />
+    <Content Include="logo\nengyuan.html" />
+    <Content Include="makeorder.aspx" />
+    <Content Include="nengyuan.html" />
+    <Content Include="notfound.aspx" />
+    <Content Include="OrderConfirm.aspx" />
+    <Content Include="OrderPaySuccess.aspx" />
+    <Content Include="pageControl\example\pager_test.html" />
+    <Content Include="pageControl\lib\jquery-1.10.2.min.js" />
+    <Content Include="pageControl\src\kkpager.css" />
+    <Content Include="pageControl\src\kkpager.js" />
+    <Content Include="pageControl\src\kkpager.min.js" />
+    <Content Include="payorder.aspx" />
+    <Content Include="PCenter\AuthorizeUser.aspx" />
+    <Content Include="PCenter\AuthorizeUserManager.aspx" />
+    <Content Include="PCenter\ChangePassword.aspx" />
+    <Content Include="PCenter\ChangePayPassword.aspx" />
+    <Content Include="PCenter\CompanyInfo.aspx" />
+    <Content Include="PCenter\FastCar.aspx" />
+    <Content Include="PCenter\FastCarList.aspx" />
+    <Content Include="PCenter\ImgUpload.aspx" />
+    <Content Include="PCenter\MyAccount.aspx" />
+    <Content Include="PCenter\MyAccountRecharge.aspx" />
+    <Content Include="PCenter\MyAddress.aspx" />
+    <Content Include="PCenter\MyAddressManager.aspx" />
+    <Content Include="PCenter\MyAppraise.aspx" />
+    <Content Include="PCenter\MyCoupon.aspx" />
+    <Content Include="PCenter\MyCouponGet.aspx" />
+    <Content Include="PCenter\MyFunding.aspx" />
+    <Content Include="PCenter\MyFundingList.aspx" />
+    <Content Include="PCenter\MyGiftCard.aspx" />
+    <Content Include="PCenter\MyGiftCardGet.aspx" />
+    <Content Include="PCenter\MyInfo.aspx" />
+    <Content Include="PCenter\MyInvoice.aspx" />
+    <Content Include="PCenter\MyInvoiceAdd.aspx" />
+    <Content Include="PCenter\MyInvoiceEdit.aspx" />
+    <Content Include="PCenter\MyInvoiceManager.aspx" />
+    <Content Include="PCenter\MyOrders.aspx" />
+    <Content Include="PCenter\MyOrdersInfo.aspx" />
+    <Content Include="PCenter\MyPassenger.aspx" />
+    <Content Include="PCenter\MyPassengerManager.aspx" />
+    <Content Include="PCenter\MyRemark.aspx" />
+    <Content Include="PCenter\MyInvoiceForAsked.aspx" />
+    <Content Include="PCenter\AddPayPassword.aspx" />
+    <Content Include="PCenter\ResetPayPassword.aspx" />
+    <Content Include="PC_HandleTwicePay.aspx" />
+    <Content Include="PC_TwicePaySuccess.aspx" />
+    <Content Include="recharge.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Score.aspx" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\city.js" />
+    <Content Include="Scripts\FastCar.js" />
+    <Content Include="Scripts\fastCarList.js" />
+    <Content Include="Scripts\forgetpwd.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-2.0.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\jquery.signalR-1.1.4.js" />
+    <Content Include="Scripts\jquery.signalR-1.1.4.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\layer.min.js" />
+    <Content Include="Scripts\moment-with-langs.js" />
+    <Content Include="Scripts\moment-with-langs.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\My97DatePicker\calendar.js" />
+    <Content Include="Scripts\My97DatePicker\config.js" />
+    <Content Include="Scripts\My97DatePicker\lang\en.js" />
+    <Content Include="Scripts\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="Scripts\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="Scripts\My97DatePicker\My97DatePicker.htm" />
+    <Content Include="Scripts\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="Scripts\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="Scripts\My97DatePicker\skin\default\img.gif" />
+    <Content Include="Scripts\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="Scripts\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Scripts\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Scripts\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="Scripts\My97DatePicker\WdatePicker.js" />
+    <Content Include="Scripts\MyInfo.js" />
+    <Content Include="Scripts\MySite.js" />
+    <Content Include="Scripts\Register.js" />
+    <Content Include="Scripts\RegisterBackup.js" />
+    <Content Include="Scripts\SelectDate.js" />
+    <Content Include="Scripts\skin\default\textbg.png" />
+    <Content Include="Scripts\skin\default\xubox_ico0.png" />
+    <Content Include="Scripts\skin\default\xubox_loading0.gif" />
+    <Content Include="Scripts\skin\default\xubox_loading1.gif" />
+    <Content Include="Scripts\skin\default\xubox_loading2.gif" />
+    <Content Include="Scripts\skin\default\xubox_loading3.gif" />
+    <Content Include="Scripts\skin\default\xubox_title0.png" />
+    <Content Include="Scripts\skin\layer.css" />
+    <Content Include="Scripts\skin\layer.ext.css" />
+    <Content Include="Scripts\forgetPayPwd.js" />
+    <Content Include="SelectWay.aspx" />
+    <Content Include="serviceqq\css\style.css" />
+    <Content Include="serviceqq\images\side.gif" />
+    <Content Include="serviceqq\images\sina.gif" />
+    <Content Include="serviceqq\images\tecent.gif" />
+    <Content Include="serviceqq\images\wap.jpg" />
+    <Content Include="serviceqq\images\wap.png" />
+    <Content Include="serviceqq\images\wx_dy.jpg" />
+    <Content Include="serviceqq\images\wx_fw.jpg" />
+    <Content Include="serviceqq\index.html" />
+    <Content Include="serviceqq\js\jquery-1.8.3.min.js" />
+    <Content Include="serviceqq\js\ServiceOnline.js" />
+    <Content Include="siji\index.htm" />
+    <Content Include="spotInfo.aspx" />
+    <Content Include="t.htm" />
+    <Content Include="Test.aspx" />
+    <Content Include="travel.aspx" />
+    <Content Include="TwiceAliPayReturn.aspx" />
+    <Content Include="TwicePay.aspx" />
+    <Content Include="twicepay\BindCardPay.aspx" />
+    <Content Include="twicepay\call_back_url.aspx" />
+    <Content Include="twicepay\error.aspx" />
+    <Content Include="twicepay\HandleTwicePay.aspx" />
+    <Content Include="twicepay\HandleUpmp.aspx" />
+    <Content Include="twicepay\Interrupt.aspx" />
+    <Content Include="twicepay\log.txt" />
+    <Content Include="twicepay\log\log.txt" />
+    <Content Include="twicepay\notify_url.aspx" />
+    <Content Include="twicepay\obj\Debug\WebApp.csproj.FileListAbsolute.txt" />
+    <Content Include="twicepay\obj\Debug\WebApp.dll" />
+    <Content Include="twicepay\obj\Debug\WebApp.pdb" />
+    <Content Include="twicepay\TwicePayBind.aspx" />
+    <Content Include="twicepay\TwicePayLoading.aspx" />
+    <Content Include="twicepay\TwicePaySuccess.aspx" />
+    <Content Include="twicepay\UPMPcallback.aspx" />
+    <Content Include="twicepay\YeepayCallBack.aspx" />
+    <Content Include="twicepay\YeepayFcallBack.aspx" />
+    <Content Include="TwiceYeePayReturn.aspx" />
+    <Content Include="uc\Header.ascx" />
+    <Content Include="UpopCallback.aspx" />
+    <Content Include="weixin.aspx" />
+    <Content Include="weixinService\index.aspx" />
+    <Content Include="weixinService\menu.aspx" />
+    <Content Include="YeePayBgTransReturn.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountpaySuccess.aspx.cs">
+      <DependentUpon>AccountpaySuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountpaySuccess.aspx.designer.cs">
+      <DependentUpon>AccountpaySuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AliPayBgTransReturn.aspx.cs">
+      <DependentUpon>AliPayBgTransReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AliPayBgTransReturn.aspx.designer.cs">
+      <DependentUpon>AliPayBgTransReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alipay\AlipayConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alipay\AlipayCore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alipay\AlipayNotify.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alipay\AlipaySubmit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alipay\MD5.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="api\addcontactor.ashx.cs">
+      <DependentUpon>addcontactor.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\AjaxFileUpload.ashx.cs">
+      <DependentUpon>AjaxFileUpload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\BaiduPlaceApi.ashx.cs">
+      <DependentUpon>BaiduPlaceApi.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\CheckLogin.ashx.cs">
+      <DependentUpon>CheckLogin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\checkorderstatus.ashx.cs">
+      <DependentUpon>checkorderstatus.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\checkPassenger.ashx.cs">
+      <DependentUpon>checkPassenger.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\checkPayPassword.ashx.cs">
+      <DependentUpon>checkPayPassword.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\CheckUserType.ashx.cs">
+      <DependentUpon>CheckUserType.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\DailyRentHandler.ashx.cs">
+      <DependentUpon>DailyRentHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\FindPasswod.ashx.cs">
+      <DependentUpon>FindPasswod.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\GenerateRechargeNum.ashx.cs">
+      <DependentUpon>GenerateRechargeNum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\GetAirportInfo.ashx.cs">
+      <DependentUpon>GetAirportInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getCityByLetter.ashx.cs">
+      <DependentUpon>getCityByLetter.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getCityByUseway.ashx.cs">
+      <DependentUpon>getCityByUseway.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\GetCitys.ashx.cs">
+      <DependentUpon>GetCitys.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getCity_service.ashx.cs">
+      <DependentUpon>getCity_service.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getFlightInfo.ashx.cs">
+      <DependentUpon>getFlightInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\GetFlightNum.ashx.cs">
+      <DependentUpon>GetFlightNum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getHotCityList.ashx.cs">
+      <DependentUpon>getHotCityList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\gethotline.ashx.cs">
+      <DependentUpon>gethotline.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getinvoicebyid.ashx.cs">
+      <DependentUpon>getinvoicebyid.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getprice.ashx.cs">
+      <DependentUpon>getprice.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getServiceCity.ashx.cs">
+      <DependentUpon>getServiceCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\getserviceplace.ashx.cs">
+      <DependentUpon>getserviceplace.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\GetTravelCitylist.ashx.cs">
+      <DependentUpon>GetTravelCitylist.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\gettravellist.ashx.cs">
+      <DependentUpon>gettravellist.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\GetUserAddress.ashx.cs">
+      <DependentUpon>GetUserAddress.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\Get_airport_service.ashx.cs">
+      <DependentUpon>Get_airport_service.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\InvoiceHandler.ashx.cs">
+      <DependentUpon>InvoiceHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\JeanyCoupon.ashx.cs">
+      <DependentUpon>JeanyCoupon.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\JeanyOrder.ashx.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>JeanyOrder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\JenayAccount.ashx.cs">
+      <DependentUpon>JenayAccount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\login.ashx.cs">
+      <DependentUpon>login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\loginout.ashx.cs">
+      <DependentUpon>loginout.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getairportbyCity.ashx.cs">
+      <DependentUpon>getairportbyCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getairportbycityid.ashx.cs">
+      <DependentUpon>getairportbycityid.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getairportbytown.ashx.cs">
+      <DependentUpon>getairportbytown.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getcitybyairport.ashx.cs">
+      <DependentUpon>getcitybyairport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getcityname.ashx.cs">
+      <DependentUpon>getcityname.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getCoupon.ashx.cs">
+      <DependentUpon>getCoupon.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\gethotlineCityName.ashx.cs">
+      <DependentUpon>gethotlineCityName.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getInvoice.ashx.cs">
+      <DependentUpon>getInvoice.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getprovincebyairport.ashx.cs">
+      <DependentUpon>getprovincebyairport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\gettownbyairport.ashx.cs">
+      <DependentUpon>gettownbyairport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\makeorder\getVouchers.ashx.cs">
+      <DependentUpon>getVouchers.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\MyAddress.ashx.cs">
+      <DependentUpon>MyAddress.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\MyAppraise.ashx.cs">
+      <DependentUpon>MyAppraise.ashx</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="api\MyInvoice.ashx.cs">
+      <DependentUpon>MyInvoice.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\MyOrderHandler.ashx.cs">
+      <DependentUpon>MyOrderHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\MyPassenger.ashx.cs">
+      <DependentUpon>MyPassenger.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\Order.ashx.cs">
+      <DependentUpon>Order.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\GetCarUseWayByCity.ashx.cs">
+      <DependentUpon>GetCarUseWayByCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\GetCityList.ashx.cs">
+      <DependentUpon>GetCityList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\getcoupon.ashx.cs">
+      <DependentUpon>getcoupon.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\GetHotLineByCity.ashx.cs">
+      <DependentUpon>GetHotLineByCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\GetHotLineStyle.ashx.cs">
+      <DependentUpon>GetHotLineStyle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\GetProvinceList.ashx.cs">
+      <DependentUpon>GetProvinceList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\getTargetCityList.ashx.cs">
+      <DependentUpon>getTargetCityList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\gettownlist.ashx.cs">
+      <DependentUpon>gettownlist.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\showway.ashx.cs">
+      <DependentUpon>showway.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\orderapi\ValidateTime.ashx.cs">
+      <DependentUpon>ValidateTime.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\paybyaccount.ashx.cs">
+      <DependentUpon>paybyaccount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\PermissionController.ashx.cs">
+      <DependentUpon>PermissionController.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\predictPrice.ashx.cs">
+      <DependentUpon>predictPrice.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\register.ashx.cs">
+      <DependentUpon>register.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\RentCar.ashx.cs">
+      <DependentUpon>RentCar.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\RequestCarsInfo.ashx.cs">
+      <DependentUpon>RequestCarsInfo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\RequestCarTypeList.ashx.cs">
+      <DependentUpon>RequestCarTypeList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\RequestCityList.ashx.cs">
+      <DependentUpon>RequestCityList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\SaveInvoice.ashx.cs">
+      <DependentUpon>SaveInvoice.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\selectcarapi\GetCarBrand.ashx.cs">
+      <DependentUpon>GetCarBrand.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\selectcarapi\GetCars.ashx.cs">
+      <DependentUpon>GetCars.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\selectcarapi\SelectCarRight.ashx.cs">
+      <DependentUpon>SelectCarRight.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\UserAddress.ashx.cs">
+      <DependentUpon>UserAddress.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\VerifyCode.ashx.cs">
+      <DependentUpon>VerifyCode.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="article.aspx.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article.aspx.designer.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="carinfo.aspx.cs">
+      <DependentUpon>carinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="carinfo.aspx.designer.cs">
+      <DependentUpon>carinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseCar.aspx.cs">
+      <DependentUpon>ChooseCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChooseCar.aspx.designer.cs">
+      <DependentUpon>ChooseCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DailyRent.aspx.cs">
+      <DependentUpon>DailyRent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyRent.aspx.designer.cs">
+      <DependentUpon>DailyRent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUpLoad.aspx.cs">
+      <DependentUpon>FileUpLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpLoad.aspx.designer.cs">
+      <DependentUpon>FileUpLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgetpwd.aspx.cs">
+      <DependentUpon>forgetpwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgetpwd.aspx.designer.cs">
+      <DependentUpon>forgetpwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frame\MemberLeft.aspx.cs">
+      <DependentUpon>MemberLeft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frame\MemberLeft.aspx.designer.cs">
+      <DependentUpon>MemberLeft.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HandleOrderPay.aspx.cs">
+      <DependentUpon>HandleOrderPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HandleOrderPay.aspx.designer.cs">
+      <DependentUpon>HandleOrderPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hotline.aspx.cs">
+      <DependentUpon>hotline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hotline.aspx.designer.cs">
+      <DependentUpon>hotline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternalError.aspx.cs">
+      <DependentUpon>InternalError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternalError.aspx.designer.cs">
+      <DependentUpon>InternalError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="makeorder.aspx.cs">
+      <DependentUpon>makeorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="makeorder.aspx.designer.cs">
+      <DependentUpon>makeorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notfound.aspx.cs">
+      <DependentUpon>notfound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notfound.aspx.designer.cs">
+      <DependentUpon>notfound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderConfirm.aspx.cs">
+      <DependentUpon>OrderConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderConfirm.aspx.designer.cs">
+      <DependentUpon>OrderConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPaySuccess.aspx.cs">
+      <DependentUpon>OrderPaySuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderPaySuccess.aspx.designer.cs">
+      <DependentUpon>OrderPaySuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payorder.aspx.cs">
+      <DependentUpon>payorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payorder.aspx.designer.cs">
+      <DependentUpon>payorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\AddAuthorizeUser.ashx.cs">
+      <DependentUpon>AddAuthorizeUser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\DeleteQuickOrderCar.ashx.cs">
+      <DependentUpon>DeleteQuickOrderCar.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\FastCarListController.ashx.cs">
+      <DependentUpon>FastCarListController.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\fundingHandler.ashx.cs">
+      <DependentUpon>fundingHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\getauthorizelist.ashx.cs">
+      <DependentUpon>getauthorizelist.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\getauthorizemodel.ashx.cs">
+      <DependentUpon>getauthorizemodel.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\getCity.ashx.cs">
+      <DependentUpon>getCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\GetRentCarList.ashx.cs">
+      <DependentUpon>GetRentCarList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\getrolelist.ashx.cs">
+      <DependentUpon>getrolelist.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\GetServiceCity.ashx.cs">
+      <DependentUpon>GetServiceCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\TransHandler.ashx.cs">
+      <DependentUpon>TransHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\updateauthorizeuser.ashx.cs">
+      <DependentUpon>updateauthorizeuser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\api\updatestatus.ashx.cs">
+      <DependentUpon>updatestatus.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\AuthorizeUser.aspx.cs">
+      <DependentUpon>AuthorizeUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\AuthorizeUser.aspx.designer.cs">
+      <DependentUpon>AuthorizeUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\AuthorizeUserManager.aspx.cs">
+      <DependentUpon>AuthorizeUserManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\AuthorizeUserManager.aspx.designer.cs">
+      <DependentUpon>AuthorizeUserManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\ChangePayPassword.aspx.cs">
+      <DependentUpon>ChangePayPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\ChangePayPassword.aspx.designer.cs">
+      <DependentUpon>ChangePayPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\FastCar.aspx.cs">
+      <DependentUpon>FastCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\FastCar.aspx.designer.cs">
+      <DependentUpon>FastCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\FastCarList.aspx.cs">
+      <DependentUpon>FastCarList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\FastCarList.aspx.designer.cs">
+      <DependentUpon>FastCarList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\ImgUpload.aspx.cs">
+      <DependentUpon>ImgUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\ImgUpload.aspx.designer.cs">
+      <DependentUpon>ImgUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyFunding.aspx.cs">
+      <DependentUpon>MyFunding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyFunding.aspx.designer.cs">
+      <DependentUpon>MyFunding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyFundingList.aspx.cs">
+      <DependentUpon>MyFundingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyFundingList.aspx.designer.cs">
+      <DependentUpon>MyFundingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceAdd.aspx.cs">
+      <DependentUpon>MyInvoiceAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceAdd.aspx.designer.cs">
+      <DependentUpon>MyInvoiceAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceEdit.aspx.cs">
+      <DependentUpon>MyInvoiceEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceEdit.aspx.designer.cs">
+      <DependentUpon>MyInvoiceEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\PCenter.Master.cs">
+      <DependentUpon>PCenter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\PCenter.Master.designer.cs">
+      <DependentUpon>PCenter.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\CompanyInfo.aspx.cs">
+      <DependentUpon>CompanyInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\CompanyInfo.aspx.designer.cs">
+      <DependentUpon>CompanyInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyAccount.aspx.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyAccount.aspx.designer.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyAccountRecharge.aspx.cs">
+      <DependentUpon>MyAccountRecharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyAccountRecharge.aspx.designer.cs">
+      <DependentUpon>MyAccountRecharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyAddress.aspx.cs">
+      <DependentUpon>MyAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyAddress.aspx.designer.cs">
+      <DependentUpon>MyAddress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyAddressManager.aspx.cs">
+      <DependentUpon>MyAddressManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyAddressManager.aspx.designer.cs">
+      <DependentUpon>MyAddressManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyAppraise.aspx.cs">
+      <DependentUpon>MyAppraise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyAppraise.aspx.designer.cs">
+      <DependentUpon>MyAppraise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyCoupon.aspx.cs">
+      <DependentUpon>MyCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyCoupon.aspx.designer.cs">
+      <DependentUpon>MyCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyCouponGet.aspx.cs">
+      <DependentUpon>MyCouponGet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyCouponGet.aspx.designer.cs">
+      <DependentUpon>MyCouponGet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyGiftCard.aspx.cs">
+      <DependentUpon>MyGiftCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyGiftCard.aspx.designer.cs">
+      <DependentUpon>MyGiftCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyGiftCardGet.aspx.cs">
+      <DependentUpon>MyGiftCardGet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyGiftCardGet.aspx.designer.cs">
+      <DependentUpon>MyGiftCardGet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyInfo.aspx.cs">
+      <DependentUpon>MyInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyInfo.aspx.designer.cs">
+      <DependentUpon>MyInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyInvoice.aspx.cs">
+      <DependentUpon>MyInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyInvoice.aspx.designer.cs">
+      <DependentUpon>MyInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceManager.aspx.cs">
+      <DependentUpon>MyInvoiceManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceManager.aspx.designer.cs">
+      <DependentUpon>MyInvoiceManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyOrders.aspx.cs">
+      <DependentUpon>MyOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyOrders.aspx.designer.cs">
+      <DependentUpon>MyOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyOrdersInfo.aspx.cs">
+      <DependentUpon>MyOrdersInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyOrdersInfo.aspx.designer.cs">
+      <DependentUpon>MyOrdersInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyPassenger.aspx.cs">
+      <DependentUpon>MyPassenger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyPassenger.aspx.designer.cs">
+      <DependentUpon>MyPassenger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyPassengerManager.aspx.cs">
+      <DependentUpon>MyPassengerManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyPassengerManager.aspx.designer.cs">
+      <DependentUpon>MyPassengerManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyRemark.aspx.cs">
+      <DependentUpon>MyRemark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyRemark.aspx.designer.cs">
+      <DependentUpon>MyRemark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceForAsked.aspx.cs">
+      <DependentUpon>MyInvoiceForAsked.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\MyInvoiceForAsked.aspx.designer.cs">
+      <DependentUpon>MyInvoiceForAsked.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\AddPayPassword.aspx.cs">
+      <DependentUpon>AddPayPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\AddPayPassword.aspx.designer.cs">
+      <DependentUpon>AddPayPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\ResetPayPassword.aspx.cs">
+      <DependentUpon>ResetPayPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\ResetPayPassword.aspx.designer.cs">
+      <DependentUpon>ResetPayPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PCenter\UserTransMoney.aspx.cs">
+      <DependentUpon>UserTransMoney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCenter\UserTransMoney.aspx.designer.cs">
+      <DependentUpon>UserTransMoney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PC_HandleTwicePay.aspx.cs">
+      <DependentUpon>PC_HandleTwicePay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PC_HandleTwicePay.aspx.designer.cs">
+      <DependentUpon>PC_HandleTwicePay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PC_TwicePaySuccess.aspx.cs">
+      <DependentUpon>PC_TwicePaySuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PC_TwicePaySuccess.aspx.designer.cs">
+      <DependentUpon>PC_TwicePaySuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recharge.aspx.cs">
+      <DependentUpon>recharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recharge.aspx.designer.cs">
+      <DependentUpon>recharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Score.aspx.cs">
+      <DependentUpon>Score.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Score.aspx.designer.cs">
+      <DependentUpon>Score.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectWay.aspx.cs">
+      <DependentUpon>SelectWay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectWay.aspx.designer.cs">
+      <DependentUpon>SelectWay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteBase.Master.cs">
+      <DependentUpon>SiteBase.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteBase.Master.designer.cs">
+      <DependentUpon>SiteBase.Master</DependentUpon>
+    </Compile>
+    <Compile Include="spotInfo.aspx.cs">
+      <DependentUpon>spotInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="spotInfo.aspx.designer.cs">
+      <DependentUpon>spotInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="travel.aspx.cs">
+      <DependentUpon>travel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="travel.aspx.designer.cs">
+      <DependentUpon>travel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TwiceAliPayReturn.aspx.cs">
+      <DependentUpon>TwiceAliPayReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TwiceAliPayReturn.aspx.designer.cs">
+      <DependentUpon>TwiceAliPayReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TwicePay.aspx.cs">
+      <DependentUpon>TwicePay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TwicePay.aspx.designer.cs">
+      <DependentUpon>TwicePay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\alipay\AlipayConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twicepay\alipay\AlipayCore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twicepay\alipay\AlipayNotify.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twicepay\alipay\AlipaySubmit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twicepay\alipay\MD5.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twicepay\alipay\RSA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twicepay\BindCardPay.aspx.cs">
+      <DependentUpon>BindCardPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\BindCardPay.aspx.designer.cs">
+      <DependentUpon>BindCardPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\bindCards.ashx.cs">
+      <DependentUpon>bindCards.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\call_back_url.aspx.cs">
+      <DependentUpon>call_back_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\call_back_url.aspx.designer.cs">
+      <DependentUpon>call_back_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\checkOrder.ashx.cs">
+      <DependentUpon>checkOrder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\error.aspx.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\error.aspx.designer.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\HandleTwicePay.aspx.cs">
+      <DependentUpon>HandleTwicePay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\HandleTwicePay.aspx.designer.cs">
+      <DependentUpon>HandleTwicePay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\HandleUpmp.aspx.cs">
+      <DependentUpon>HandleUpmp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\HandleUpmp.aspx.designer.cs">
+      <DependentUpon>HandleUpmp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\Interrupt.aspx.cs">
+      <DependentUpon>Interrupt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\Interrupt.aspx.designer.cs">
+      <DependentUpon>Interrupt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\notify_url.aspx.cs">
+      <DependentUpon>notify_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\notify_url.aspx.designer.cs">
+      <DependentUpon>notify_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\twicePay.ashx.cs">
+      <DependentUpon>twicePay.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\TwicePayBind.aspx.cs">
+      <DependentUpon>TwicePayBind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\TwicePayBind.aspx.designer.cs">
+      <DependentUpon>TwicePayBind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\TwicePayLoading.aspx.cs">
+      <DependentUpon>TwicePayLoading.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\TwicePayLoading.aspx.designer.cs">
+      <DependentUpon>TwicePayLoading.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\TwicePaySuccess.aspx.cs">
+      <DependentUpon>TwicePaySuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\TwicePaySuccess.aspx.designer.cs">
+      <DependentUpon>TwicePaySuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\upmpay\UpmpConfig.cs" />
+    <Compile Include="twicepay\upmpay\UpmpCore.cs" />
+    <Compile Include="twicepay\upmpay\UpmpService.cs" />
+    <Compile Include="twicepay\UPMPcallback.aspx.cs">
+      <DependentUpon>UPMPcallback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\UPMPcallback.aspx.designer.cs">
+      <DependentUpon>UPMPcallback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\YeepayCallBack.aspx.cs">
+      <DependentUpon>YeepayCallBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\YeepayCallBack.aspx.designer.cs">
+      <DependentUpon>YeepayCallBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\YeepayFcallBack.aspx.cs">
+      <DependentUpon>YeepayFcallBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="twicepay\YeepayFcallBack.aspx.designer.cs">
+      <DependentUpon>YeepayFcallBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="twicepay\yeepay\AES\AES.cs" />
+    <Compile Include="twicepay\yeepay\AES\TestAES.cs" />
+    <Compile Include="twicepay\yeepay\config\APIURLConfig.cs" />
+    <Compile Include="twicepay\yeepay\config\Config.cs" />
+    <Compile Include="twicepay\yeepay\Entity\RespondJson.cs" />
+    <Compile Include="twicepay\yeepay\RSA\RSA.cs" />
+    <Compile Include="twicepay\yeepay\RSA\TestRSA.cs" />
+    <Compile Include="twicepay\yeepay\Util\EncryptUtil.cs" />
+    <Compile Include="twicepay\yeepay\Util\HttpUtil.cs" />
+    <Compile Include="twicepay\yeepay\Util\YJPay.cs" />
+    <Compile Include="twicepay\yeepay\Util\YJPayUtil.cs" />
+    <Compile Include="TwiceYeePayReturn.aspx.cs">
+      <DependentUpon>TwiceYeePayReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TwiceYeePayReturn.aspx.designer.cs">
+      <DependentUpon>TwiceYeePayReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uc\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UpopCallback.aspx.cs">
+      <DependentUpon>UpopCallback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpopCallback.aspx.designer.cs">
+      <DependentUpon>UpopCallback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin.aspx.cs">
+      <DependentUpon>weixin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin.aspx.designer.cs">
+      <DependentUpon>weixin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixinService\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixinService\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixinService\menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeePayBgTransReturn.aspx.cs">
+      <DependentUpon>YeePayBgTransReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeePayBgTransReturn.aspx.designer.cs">
+      <DependentUpon>YeePayBgTransReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yeepay\Buy.cs" />
+    <Compile Include="yeepay\BuyCallbackResult.cs" />
+    <Compile Include="yeepay\Digest.cs" />
+    <Compile Include="yeepay\FormatQueryString.cs" />
+    <Compile Include="yeepay\HmacMD5.cs" />
+    <Compile Include="yeepay\HttpUtils.cs" />
+    <Compile Include="yeepay\yeepaySubmit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{4C404CE8-9E70-4397-9DAB-2CE417FCA3C3}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{FDCAC595-B73A-4DE0-8B42-F7EB7701BF44}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{E50655F0-29F6-4B42-9BA7-EACC3CC21AD6}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{CEE95C53-B2D2-4C48-BB4E-EC1DC7202805}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IEZU.Log\IEZU.Log.csproj">
+      <Project>{600D61E6-A361-41FC-82E4-A3F5AAA0E796}</Project>
+      <Name>IEZU.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{67FB75B5-8C39-447F-B10F-30B895C490F7}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="api\getFlightInfo.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="api\login.ashx" />
+    <Content Include="api\register.ashx" />
+    <Content Include="api\RequestCarsInfo.ashx" />
+    <Content Include="api\RequestCityList.ashx" />
+    <Content Include="api\RequestCarTypeList.ashx" />
+    <Content Include="api\GetAirportInfo.ashx" />
+    <Content Include="api\SaveInvoice.ashx" />
+    <Content Include="api\UserAddress.ashx" />
+    <Content Include="api\getServiceCity.ashx" />
+    <Content Include="api\Order.ashx" />
+    <Content Include="api\RentCar.ashx" />
+    <Content Include="api\VerifyCode.ashx" />
+    <Content Include="api\JeanyOrder.ashx" />
+    <Content Include="api\orderapi\GetCarUseWayByCity.ashx" />
+    <Content Include="api\orderapi\GetCityList.ashx" />
+    <Content Include="api\orderapi\GetHotLineByCity.ashx" />
+    <Content Include="api\orderapi\GetHotLineStyle.ashx" />
+    <Content Include="api\orderapi\GetProvinceList.ashx" />
+    <Content Include="api\selectcarapi\GetCarBrand.ashx" />
+    <Content Include="api\selectcarapi\GetCars.ashx" />
+    <Content Include="api\selectcarapi\SelectCarRight.ashx" />
+    <Content Include="api\CheckLogin.ashx" />
+    <Content Include="api\JeanyCoupon.ashx" />
+    <Content Include="api\JenayAccount.ashx" />
+    <Content Include="api\MyAddress.ashx" />
+    <Content Include="api\MyInvoice.ashx" />
+    <Content Include="api\MyPassenger.ashx" />
+    <Content Include="api\getHotCityList.ashx" />
+    <Content Include="api\getCityByUseway.ashx" />
+    <Content Include="api\gethotline.ashx" />
+    <Content Include="api\orderapi\showway.ashx" />
+    <Content Include="api\paybyaccount.ashx" />
+    <Content Include="api\DailyRentHandler.ashx" />
+    <Content Include="api\CheckUserType.ashx" />
+    <Content Include="api\makeorder\getairportbycityid.ashx" />
+    <Content Include="api\makeorder\getairportbyCity.ashx" />
+    <Content Include="api\makeorder\getcityname.ashx" />
+    <Content Include="api\makeorder\gethotlineCityName.ashx" />
+    <Content Include="api\loginout.ashx" />
+    <Content Include="api\getCityByLetter.ashx" />
+    <Content Include="api\orderapi\gettownlist.ashx" />
+    <Content Include="api\orderapi\ValidateTime.ashx" />
+    <Content Include="PCenter\api\AddAuthorizeUser.ashx" />
+    <Content Include="PCenter\api\getauthorizelist.ashx" />
+    <Content Include="PCenter\api\getauthorizemodel.ashx" />
+    <Content Include="PCenter\api\getrolelist.ashx" />
+    <Content Include="PCenter\api\updateauthorizeuser.ashx" />
+    <Content Include="PCenter\api\updatestatus.ashx" />
+    <Content Include="PCenter\PCenter.Master" />
+    <Content Include="api\orderapi\getTargetCityList.ashx" />
+    <Content Include="api\makeorder\getprovincebyairport.ashx" />
+    <Content Include="api\makeorder\getcitybyairport.ashx" />
+    <Content Include="api\makeorder\gettownbyairport.ashx" />
+    <Content Include="api\makeorder\getairportbytown.ashx" />
+    <Content Include="api\getinvoicebyid.ashx" />
+    <Content Include="PCenter\api\getCity.ashx" />
+    <Content Include="api\checkorderstatus.ashx" />
+    <Content Include="api\FindPasswod.ashx" />
+    <Content Include="api\orderapi\getcoupon.ashx" />
+    <Content Include="api\BaiduPlaceApi.ashx" />
+    <Content Include="api\makeorder\getInvoice.ashx" />
+    <Content Include="api\makeorder\getCoupon.ashx" />
+    <Content Include="api\predictPrice.ashx" />
+    <Content Include="App_Data\conf.xml.config" />
+    <Content Include="api\getserviceplace.ashx" />
+    <Content Include="api\gettravellist.ashx" />
+    <Content Include="api\getprice.ashx" />
+    <Content Include="api\addcontactor.ashx" />
+    <Content Include="api\GetTravelCitylist.ashx" />
+    <Content Include="api\GenerateRechargeNum.ashx" />
+    <Content Include="api\GetFlightNum.ashx" />
+    <Content Include="api\checkPayPassword.ashx" />
+    <Content Include="api\MyOrderHandler.ashx" />
+    <Content Include="api\getCity_service.ashx" />
+    <Content Include="api\checkPassenger.ashx" />
+    <Content Include="api\Get_airport_service.ashx" />
+    <Content Include="api\GetUserAddress.ashx" />
+    <Content Include="api\GetCitys.ashx" />
+    <Content Include="api\PermissionController.ashx" />
+    <Content Include="api\makeorder\getVouchers.ashx" />
+    <Content Include="api\AjaxFileUpload.ashx" />
+    <Content Include="api\InvoiceHandler.ashx" />
+    <None Include="App_Data\MerPrK_808080201304188_20140618154302.key" />
+    <None Include="App_Data\PgPubk.key" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="PCenter\api\GetRentCarList.ashx" />
+    <Content Include="PCenter\api\DeleteQuickOrderCar.ashx" />
+    <Content Include="PCenter\api\FastCarListController.ashx" />
+    <Content Include="PCenter\api\GetServiceCity.ashx" />
+    <Content Include="PCenter\api\fundingHandler.ashx" />
+    <Content Include="PCenter\api\TransHandler.ashx" />
+    <None Include="Scripts\jquery-2.0.3.min.map" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SiteBase.Master" />
+    <Content Include="twicepay\twicePay.ashx" />
+    <Content Include="twicepay\bindCards.ashx" />
+    <None Include="siji\iezudriver.apk" />
+    <None Include="siji\diaodu.docx" />
+    <None Include="siji\sijiappdoc" />
+    <None Include="siji\sijiweb.docx" />
+    <Content Include="twicepay\checkOrder.ashx" />
+    <None Include="twicepay\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="twicepay\obj\Debug\WebApp.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="hub\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="siji\images\" />
+    <Folder Include="twicepay\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9001</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

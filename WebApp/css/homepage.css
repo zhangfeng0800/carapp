@@ -1,0 +1,397 @@
+/* CSS Document */
+.banner,.book-up,.main,.vip-client{ margin:0 auto; width: 1000px;}
+.book-tab-til li,.main-left,.main-side,.hot-line-til,.hot-line-tab li,.more-line,.hotline-show dt,.hotline-show dd,.service-ico li,.car-mod-til,.carshow,.ayz-news,.ayz-news dt,.ayz-news dd,.span-sl,.icon-show li,.vip-ul li{ display: inline; float: left;}
+
+.banner{ height: 330px; overflow: hidden; width:100%;}
+
+/*预定车*/
+.book-up{ height: auto; position: relative;top:-90px; *top:-420px; z-index: 9998;}
+.book-box{
+	background: url(../images/bookbox.png) no-repeat;
+	height: 280px;
+	/*filter:Alpha(Opacity=90);
+	opacity:0.9;*/
+	position: absolute;
+	padding: 20px 30px;
+	right:10px;
+	top:100px;
+	width: 284px;
+	z-index: 99999;
+}
+.book-til{
+    border-bottom: 1px solid #dedede;
+	color: #72bd65;
+	font: 18px "Microsoft Yahei","黑体";
+    height: 40px;
+    line-height: 40px;
+}
+
+.book-bg p{ font-size: 12px; padding: 5px 0; margin-top: 5px;}
+.option-border{
+	height: 22px;
+	line-height: 22px;
+	width: 150px;
+}
+.choose-btn{
+	background: url(../images/chooseBTN.png) no-repeat;
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font: 16px "Microsoft Yahei","黑体";
+	height: 47px;
+	line-height: 47px;
+	margin-top: 20px;
+	width: 295px;
+}
+/*焦点图*/
+#full-screen-slider {
+	width:100%;
+	height:330px;
+	float:left;
+	position:relative
+}
+#slides {
+	display:block;
+	width:100%;
+	height:330px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:relative
+}
+#slides li {
+	display:block;
+	width:100%;
+	height:100%;
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:absolute
+}
+#slides li a {
+	display:block;
+	width:100%;
+	height:100%;
+	text-indent:-9999px
+}
+#pagination {
+	display:block;
+	list-style:none;
+	position:absolute;
+	right:60%;
+	top:300px;
+	z-index:9900;
+	padding:5px 15px 5px 0;
+	margin:0
+}
+#pagination li {
+	display:block;
+	list-style:none;
+	width:10px;
+	height:10px;
+	line-height: 10px;
+	float:left;
+	margin-left:15px;
+	border-radius:5px;
+	background:#FFF
+}
+#pagination li a {
+	display:block;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-indent:-9999px;
+}
+#pagination li.current {
+	background:#0092CE
+}
+/*焦点图*/
+
+/*页面主体*/
+.main{ margin-top: 15px;}
+.main-left{
+	margin-right: 15px;
+	width: 700px;
+}
+.main-side{ width: 285px;}
+
+.hot-line-top{
+	background: url(../images/hotLine.gif) repeat-x 0 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.hot-line-til{
+	font: 16px "Microsoft Yahei","黑体";
+	margin:0 25px 0 10px;
+	padding-top: 3px;
+}
+.hot-line-tab li a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -1px;
+	*margin-top: 0;
+	text-align: center;
+	width: 80px;
+}
+.hot-line-tab li.ui-tabs-active{
+	background: #fff;
+	border: 1px solid #bebebe;
+	border-bottom: none;
+	text-decoration: none;
+}
+.more-line{ float: right;}
+.more-line,.more-line a{
+	color: #bbb;
+	font-size: 12px;
+}
+.hot-line-bg{ padding: 0 0 0 0;}
+.hot-line-img{
+	height: 100px;
+	width: 150px;
+}
+/*价格样式*/
+.price{ color:#c03; font-weight: bold;}
+/*按钮*/
+.book-line-btn{
+	background: url(../images/chooseBTN.png) no-repeat;
+	color:#fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 80px;
+}
+.book-line-btn:hover{
+	border: 1px solid #e05b00;
+	border-top: none;
+	border-left: none;
+	height: 29px;
+	width: 79px;
+	color: #fff;
+	text-decoration: none;
+}
+.hot-line-table tr td{
+	line-height: 230%; 
+	padding: 5px 0;
+	vertical-align: middle;
+}
+.hot-line-table tr a img
+{
+    cursor:default;
+    }
+.service{
+	border-bottom: 1px solid #e5e5e5;
+	font: 16px "Microsoft Yahei","黑体";
+	height: 29px;
+	line-height: 29px;
+}
+.ser-ico{ padding:0;}
+.service-ico li{ margin:15px 8px 0 4px;}
+.service-ico li a,.service-ico li a:hover{
+	background: url(../images/serIco.png) no-repeat;
+	color:#fff;
+	display: block;
+	font: 16px "Microsoft Yahei","黑体";
+	height: 30px;
+	padding-top: 80px;
+	text-align: center;
+	width: 130px;
+}
+.service-ico li a:hover{ text-decoration: none;}
+
+.service-ico li .ico1{background-position: 0 0;}
+.service-ico li .ico2{background-position: -140px 0;}
+.service-ico li .ico3{background-position: 0 -120px;}
+.service-ico li .ico4{background-position: -140px -120px;}
+.service-ico li .ico5{background-position: 0 -240px;}
+.service-ico li .ico6{background-position: -140px -240px;}
+.service-ico li .ico7{background-position: 0 -358px;}
+.service-ico li .ico8{background-position: -140px -358px;}
+
+.service-ico li .ico1:hover{background-position: 0 -475px;}
+.service-ico li .ico2:hover{background-position: -140px -475px;}
+.service-ico li .ico3:hover{background-position: 0 -595px;}
+.service-ico li .ico4:hover{background-position: -140px -595px;}
+.service-ico li .ico5:hover{background-position: 0 -715px;}
+.service-ico li .ico6:hover{background-position: -140px -715px;}
+.service-ico li .ico7:hover{background-position: 0 -833px;}
+.service-ico li .ico8:hover{background-position: -140px -833px;}
+
+.car-model{
+	border: 1px solid #e6e6e6;
+	height: 88px;
+}
+
+.ayz-news{ margin:8px 0 0 5px;}
+.ayz-news dt a img{
+	display: block;
+	height: 70px;
+	width: 60px;
+}
+.ayz-news dd{ line-height: 180%; margin-left: 15px; width: 260px;}
+.ayz-news dd ul li a{font-size: 12px;}
+
+.tel{
+	background: url(../images/tel.jpg) no-repeat;
+	height: 90px;
+	width: 285px;
+}
+
+/*车型展示*/
+.cartil{
+	border-bottom: 1px solid #e6e6e6;
+	font: 18px "Microsoft Yahei","黑体";
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 15px;
+}
+/*车型*/
+.lanrenzhijia {
+	width:1000px;
+	height:110px;
+	position:relative;
+	text-align:left;
+}
+.lanrenzhijia li {
+	display: inline;
+	float:left;
+	overflow:hidden;
+	margin:0 12px 0 9px;
+	border:1px solid #DDD;
+	padding:1px;
+}
+.lanrenzhijia li.memLI {
+	height:100px;
+	width:100px;
+}
+.lanrenzhijia .popInfo {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	background:#ff6600;
+	width:268px;
+	height:104px;
+	overflow:hidden;
+}
+.lanrenzhijia .popInfo img {
+	width:100px;
+	display:block;
+	height: 100px;
+	position:relative;
+	z-index:3;
+	padding:1px;
+	border:1px solid #ccc;
+	background:#fff;
+}
+.lanrenzhijia .popInfo p {
+	width:148px;
+	padding:5px 7px;
+	height:90px;
+	line-height:20px;
+	color:#fff;
+	overflow:hidden;
+	position:relative;
+	z-index:2;
+}
+.lanrenzhijia .popInfo p strong {
+	display:block;
+}
+.lanrenzhijia .layerMode {
+	display:none;
+	position:absolute;
+	background:#000;
+	filter:Alpha(Opacity=50);
+	opacity:0.5;
+	top:0;
+	left:0;
+	width:1000px;
+	height:105px;
+	z-index:3;
+}
+.img img {
+	width:100px;
+	height:100px;
+}
+
+/*首页热门线路修改*/
+.city-width{
+	border: 1px solid #BEBEBE;
+	border-top: none;
+	padding: 10px;
+	margin-bottom: 15px;
+	width: 678px;}
+.span-sl{}
+/*
+*首页修改
+*2014-3-7
+*/
+
+.icon-show li{
+	padding:0 0 0 42px;
+	width: 208px;
+}
+/*
+.icon-show li .icon-one,.icon-show li .icon-two,.icon-show li .icon-three,.icon-show li .icon-four{
+	background: url(../images/iconH.png) no-repeat 0 0;
+	display: block;
+	font: 16px "Microsoft Yahei";
+	height: 30px;
+	overflow: hidden;
+	padding: 130px 0 0 0;
+	text-align: center;
+	width: 124px;
+}
+
+.icon-show li a.icon-one:hover,.icon-show li a.icon-two:hover,.icon-show li a.icon-three:hover,.icon-show li a.icon-four:hover{ color:#333; text-decoration: none;}
+.icon-show li a.icon-one{ background-position: 0 0;}
+.icon-show li a.icon-two{ background-position: -187px 0;}
+.icon-show li a.icon-three{ background-position: -373px 0;}
+.icon-show li a.icon-four{ background-position: -562px 0;}
+.icon-show li a.icon-one:hover{background: url(../images/iconH.png) no-repeat 0 -160px;}
+.icon-show li a.icon-two:hover{ background-position: -187px -160px;}
+.icon-show li a.icon-three:hover{ background-position: -373px -160px;}
+.icon-show li a.icon-four:hover{ background-position: -562px -160px;}
+
+.icon-show li .icon-info-text{ line-height: 180%;}
+.icon-show li .icon-info-text a{ background: none; font-size: 12px;}
+*/
+
+.icon-show li .icon-one,.icon-show li .icon-two,.icon-show li .icon-three,.icon-show li .icon-four{
+	background: url(../images/iconH3.png) no-repeat 0 0;
+	display: block;
+	font: 16px "Microsoft Yahei";
+	height: 30px;
+	overflow: hidden;
+	padding: 130px 0 0 0;
+	text-align: center;
+	width: 124px;
+}
+
+.icon-show li a.icon-one:hover,.icon-show li a.icon-two:hover,.icon-show li a.icon-three:hover,.icon-show li a.icon-four:hover{ color:#333; text-decoration: none;}
+.icon-show li a.icon-one{ background-position: 0 0;}
+.icon-show li a.icon-two{ background-position: -187px 0;}
+.icon-show li a.icon-three{ background-position: -373px 0;}
+.icon-show li a.icon-four{ background-position: -562px 0;}
+.icon-show li a.icon-one:hover{background: url(../images/iconH3.png) no-repeat 0 -160px;}
+.icon-show li a.icon-two:hover{ background-position: -187px -160px;}
+.icon-show li a.icon-three:hover{ background-position: -373px -160px;}
+.icon-show li a.icon-four:hover{ background-position: -562px -160px;}
+
+.icon-show li .icon-info-text{ line-height: 180%;}
+.icon-show li .icon-info-text a{ background: none; font-size: 12px;}
+
+.vip-client{ margin: 15px auto;}
+
+.vip-ul li{
+	margin: 0 10px 0 13px;
+}
+.vip-ul li a img{
+	border: 1px solid #BEBEBE;
+	display: block;
+	height: 64px;
+	width: 174px;
+}

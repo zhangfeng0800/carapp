@@ -1,0 +1,474 @@
+﻿body 
+{
+    font-size:12px;
+}
+img
+{
+    border:0px;
+}
+#container
+{
+    margin:0px auto;
+    width:966px;
+    height:auto;
+    padding:0px;
+}
+.order_car
+{
+    margin:0px;
+    padding:0px;
+    width:966px;
+    height:auto;
+}
+.order_car h3
+{
+    background: url("/images/index.gif") no-repeat scroll 0 -50px #FFFFFF;
+    border-bottom: 3px solid #A20000;
+    height: 28px;
+    line-height: 31px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.order_car h3 span
+{
+    color:#FFFFFF;
+    font-size:14px;
+    display:inline-block;
+    margin-left:60px;
+}
+.select_car
+{
+    margin:0px;
+    padding:0px;
+    width:964px;
+    border:1px solid #CDCBCC;
+    border-top:0px;
+    padding-top:35px;
+}
+.select_detail
+{
+    margin:0px 0px 0px 180px;
+}
+.row
+{
+    clear:both;
+}
+.row .row_span 
+{
+    float:left;
+    font-size:14px;
+    color:#5E5E5E;
+}
+#select_province,#select_city
+{
+    width:130px;
+    height:28px;
+    border:1px solid #CDCBCC;
+    margin-left:10px;
+    text-align:center;
+}
+.select_item
+{
+     float:left;
+     margin-left:27px;
+}
+.select_item div
+{
+    margin-bottom:30px;
+}
+.bottom
+{
+    margin:40px 0px 60px 450px;
+}
+#btnSubmit
+{
+    background: url("/images/new_btn.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    background-position: right -200px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 185px;
+    color:#FFFFFF;
+}
+.lblBorder  
+  {
+      display:block;
+      margin-left:5px;
+      border-style: none none dashed;
+    border-width: 0 0 1px;
+     margin-bottom:30px;
+    width:590px;
+  }
+  .gray
+  {
+      color:#999999;
+  }
+  .order_detail
+  {
+     width:100%;
+     margin:0px 0px 0px 0px;
+     height:auto;
+  }
+  .car_item
+  {
+    border: 1px solid #C3C3C3;
+    overflow: hidden;
+    padding: 15px 10px 12px;
+    position: relative;
+    margin-top:10px;
+  }
+  .ct
+  {
+        background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #C3C3C3;
+    display: inline-block;
+    float: left;
+    height: 120px;
+    line-height: 1.8;
+    margin-right: 10px;
+    padding: 13px 2px 0;
+    text-align: center;
+    width: 20px;
+  }
+  .intro
+  {
+    float: left;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+    width: 455px;
+  }
+  .tit
+  {
+     border-bottom: 1px dashed #C8C8C8;
+    margin-bottom:0px;
+    padding: 5px 0;
+    margin-top:2px;
+  }
+  .tit strong
+  {
+      display:inline-block;
+       font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+     padding-left: 42px;
+  }
+  .slit
+  {
+       border-left: 1px dashed #C8C8C8;
+    display: inline-block;
+    min-height: 25px;
+    overflow: hidden;
+    width: 10px;
+  }
+  .col2
+  {
+       overflow: hidden;
+       list-style:none;
+       margin-bottom:0px;
+       padding-left:30px;
+  }
+    .col2 .left
+    {
+        float:left;
+        height:auto;
+        width:170px;
+    }
+        .col2 .right
+        {
+             float:left;
+        height:auto;
+        width:230px;
+        }
+    .col2 li
+    {
+        list-style:none;
+    margin-bottom:10px;
+    color:#5E5E5E;
+    letter-spacing:2px;
+    }
+ .col2 li span
+    {
+     background: url("/images/ico.gif") no-repeat scroll -100px -350px rgba(0, 0, 0, 0);
+    height: 16px;
+    vertical-align: middle;
+    width: 15px;
+    display:inline-block;
+    }
+    .f16
+    {
+        font-size:16px;
+        font-weight:bold;
+    }
+     .red
+     {
+         color:#A10000;
+     }
+    .fee3
+     {
+   background: url("/images/ico1.gif") no-repeat scroll 0 -150px #FFFFFF;
+    display: inline-block;
+    height: 19px;
+    vertical-align: middle;
+    width: 67px;
+    }
+     .btnorder
+     {
+      position: absolute;
+    right: 70px;
+    top: 130px;
+     }
+ .bsn-red, .bsn-red:hover {
+   background: url("/images/btn.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    height: 26px;
+    line-height: 26px;
+    width: 60px;
+       border: 0 none;
+    cursor: pointer;
+      display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.pic
+{
+     border: 1px solid #C3C3C3;
+    float: left;
+    padding: 2px;
+    width:160px;
+    height:130px;
+}
+.pic img
+{
+       height: 130px;
+    width: 170px;
+}
+.select_tip
+{
+    width:246px;
+    float:right;
+    margin-top:27px;
+}
+.tip1
+{
+   width:246px;
+   border:1px solid #CDCBCC;
+   margin:0px;
+}
+.tipHeader
+{
+    height:30px;
+    line-height:30px;
+    padding-left:10px;
+    background-color:#EFEFEF;
+    border-bottom:1px solid #CDCBCC;
+}
+.tipHeader span
+{
+    color:#5E5E5E;
+    font-size:14px;
+    font-weight:bold;
+    font-family:@微软雅黑;
+} 
+ .tipHeader a
+ {
+     display:inline-block;
+     margin-left:70px;
+     text-decoration:none;
+ }
+ .tip1_detail
+ {
+      margin:0px;
+      padding:25px 0px 10px 15px;
+      background-color:#F2F2F2;
+ }
+ .tip1_detail img
+ {
+     border:0px;
+     width:60px;
+     height:60px;
+     display:inline-block;
+ }
+ .tip1_detail label
+ {
+     display:inline-block;
+     margin-left:10px;
+     font-size:14px;
+     color:#5E5E5E;
+     font-family:@微软雅黑;
+     position:relative;
+     top:-11px;
+ }
+  .tip1_detail label span
+  {
+      display:inline-block;
+      margin-bottom:14px;
+  }
+ .bold
+ {
+     font-weight:bold;
+     color:Black;
+ }
+.hotline_to_pos_area
+{
+    display:none;   
+}
+.hotline_to_pos_area label
+{
+     cursor: pointer;
+}
+.addAddress
+{
+    position:absolute;
+    top:210px;
+    left:195px;
+    width:440px;
+    height:250px;
+    border:1px solid #FABDBC;
+    z-index:100;
+    background-color:#FFFFFF;
+    display:none;
+}
+.add_header
+{
+    height:32px;
+    line-height:32px;
+    width:100%;
+    background: url("/images/mem_bg_x.gif") repeat-x scroll 0 -150px #FFFFFF;
+    border-bottom:1px solid #FABDBC;
+}
+.add_header span
+{
+    color:#5E5E78;
+    font-size:14px;
+    margin-left:15px;
+    display:inline-block;
+}
+.add_header a
+{
+    display:inline-block;
+    height:12px;
+    width:12px;
+    background-image:url("/images/close.jpg");
+    margin:11px 0px 0px 310px;
+}
+.add_detail
+{
+    margin:30px 0px 0px 25px;
+    padding:0px;
+}
+ .add_detail a
+  {
+         text-decoration: none;
+ } 
+ .add_detail label
+{
+    width:80px;
+    display:inline-block;
+    font-size:14px;
+    font-family:微软雅黑;
+    text-align:right;
+    color:#5E5E78;
+    margin-bottom:25px;
+}
+.add_detail input
+{
+    display:inline-block;
+    margin:0px 0px 0px 14px;
+    height:24px;
+    width:200px;
+    border:1px solid #ABA8A1;
+}
+.add_detail span
+{
+    color:#A00008;
+}
+#btnUpdate
+{
+    height: 27px;
+    line-height: 25px;
+    width: 52px;
+    background: url("/images/mem_btn.gif") no-repeat scroll 0 -400px rgba(0, 0, 0, 0);
+    color:White;
+    font-weight:bold;
+    font-family:微软雅黑;
+    border:0px;
+    display:inline-block;
+    margin:15px 0px 50px 145px;
+    position:relative;
+    left:-20px;
+}
+.error_tip
+{
+    color:Red;
+    display:inline-block;
+    margin:0px 0px 0px 20px;
+    display:none;
+}
+.jieji
+{
+       background: url("/images/ico.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+       background-position: 0 -450px;
+    height: 30px;
+    width: 30px;
+}
+.songji
+{    background: url("/images/ico.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+       background-position: -70px -450px;
+    height: 30px;
+    width: 30px;
+}
+.shizu
+{
+       background: url("/images/ico.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+      background-position: right -450px;
+    height: 30px;
+    width: 30px;
+}
+.banrizu
+{
+     background: url("/images/ico.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+       background-position: -70px -500px;
+    height: 30px;
+    width: 30px;
+}
+.rizu
+{   
+     background: url("/images/ico.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+      background-position: 0 -500px;
+    height: 30px;
+    width: 30px;
+}
+.hotline
+{
+    background: url("/images/ico.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+      background-position: right -500px;
+    height: 30px;
+    width: 30px;
+}
+.info_box
+{
+    margin:0px;
+    height:auto;
+    padding:0px;
+    width:966px;
+    margin-bottom:70px;
+}

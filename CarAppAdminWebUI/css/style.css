@@ -1,0 +1,50 @@
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{
+	font:12px Tahoma, Geneva, sans-serif;}
+.container{
+	margin:0 auto;
+	padding:10px;
+	width:800px;}
+.wrap{margin:10px auto;}
+.wrap a,.wrap a:visited,.wrap a:link{color:#000; text-decoration:none;}
+.wrap a.city_seleted{
+	background:#09F;
+	color:#fff;
+	padding:3px 4px;}
+.wrap h3{
+	border-bottom:1px solid #333;
+	font:16px/35px "Microsoft Yahei";
+	height:35px;
+	margin-bottom:10px;}
+.wrap_bg{ overflow:hidden;padding:10px;}
+.uc_info{
+	display:block;
+	float:left;
+	height:35px;
+	width:260px;}
+.uc_info strong{
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	margin-right:5px;}
+.font_red{color:red; font:bold normal 12px Tahoma, Geneva, sans-serif;}
+.form_items{ height:50px;}
+.reg_btn{
+	background:#F66;
+	border:none;
+	border-radius:5px;
+	color:#fff;
+	display:block;
+	font-size:12px;
+	height:30px;
+	line-height:30px;
+	margin-left:50px;
+	text-align:center;
+	width:100px;}
+.in_border{
+	border:1px solid #ddd;
+	height:30px;
+	line-height:30px;
+	width:220px;}
+.in_width{ width:400px;}
+.heji{ font:bold 20px "Microsoft Yahei";}

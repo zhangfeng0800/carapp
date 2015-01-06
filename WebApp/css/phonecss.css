@@ -1,0 +1,72 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%; font-style: normal; font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;}
+.clearfix:after{
+ content:".";
+ display:block;
+ height:0;
+ line-height:0;
+ clear:both;
+ visibility:hidden;
+}
+.clearfix{display:inline-block;}
+/* Hide from IE Mac */
+.clearfix{display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+body{ font-family: "Microsoft Yahei";}
+.head{
+	background: url(/images/user.png) no-repeat center 15px #424242;
+	color: #fff;
+	font: 16px "Microsoft Yahei";
+	height: 60px;
+	padding-top: 180px;
+	text-align: center;
+	width: 100%;
+}
+.content{ padding-top: 10px;}
+.til{font-size: 18px; border-bottom: 1px solid #ddd; height: 30px; line-height: 30px; margin-bottom: 10px;}
+.content ul li{ font-size: 16px; line-height: 180%;}
+.btn{
+	background: #00BFF3;
+	border-radius: 5px;
+	color:#fff;
+	display: block;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+.menu{
+	background: #424242;
+	color:#fff;
+	height: 30px;
+	line-height: 30px;
+}
+.menu h3{ color:#fff;font-size: 16px; text-align: center;}
+.menu a{
+	color:#fff;
+	display: inline;
+	float: left;
+	text-decoration: none;
+}
+.jiesu{ font-size: 16px; height: 40px;}
+.jiesu input{
+	border: 1px solid #ddd;
+	height: 25px;
+	line-height: 25px;
+	width:80px;
+}
+.price{
+	color: #f00;
+	font-weight: bold;
+}
+.zhifubao{ height: auto;}
+.pay-end{
+	background: url(/images/ok.png) no-repeat;
+	color: #f00;
+	font-size: 20px;
+	height: 40px;
+	padding: 20px 0 0 60px;
+}

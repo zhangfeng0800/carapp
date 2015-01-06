@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>test page</title>
+    <script type="text/javascript" src="../lib/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../src/kkpager.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../src/kkpager.css" />
+</head>
+<body>
+    <div id="kkpager">
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            kkpager.generPageHtml({
+                pno: 1,//当前页码
+                total: 20, //总页码
+                totalRecords: 390,//总数据条数
+                mode: 'click', //默认值是link，可选link或者click
+                click: function (n) {
+                    alert(n);
+                    this.selectPage(n);
+                    return false;
+                }
+            });
+        });
+</script>
+</body>
+</html>
